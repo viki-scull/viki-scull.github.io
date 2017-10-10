@@ -36,6 +36,7 @@ radial-gradient(closest-side, transparent 98%, rgba(255,255,255,.3) 99%);
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
+  padding: 100px 0px;
 }
 .title  h1{
   position: relative;
@@ -116,6 +117,7 @@ h2{
 
 
 #talks{
+    padding: 100px 0px;
     grid-column-start: 2;
     grid-column-end: 4;
     width: 66%;
