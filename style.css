@@ -9,7 +9,7 @@ body {
 
 #portfolio{
   display: grid;
-  grid-template-columns: 20% 1fr 1fr 20%;
+  grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20%;
   margin: -5px;
   padding: -10px;
   background-color:#efe0e7;
@@ -21,7 +21,7 @@ radial-gradient(closest-side, transparent 98%, rgba(255,255,255,.1) 99%);
 
 #hello{
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 11;
   grid-row-start: 1;
   background-color:#dbb7c9;
   background-image: radial-gradient(closest-side, transparent 98%, rgba(255,255,255,.3) 99%),
@@ -34,7 +34,7 @@ radial-gradient(closest-side, transparent 98%, rgba(255,255,255,.3) 99%);
   font-family: 'Montserrat', sans-serif;
   text-align: right;
   grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-end: 10;
   grid-row-start: 1;
   padding: 100px 0px;
 }
@@ -60,20 +60,73 @@ h2{
     color:  #a37a8e;
     text-align: left;}
 
-#aboutme{
+#picofme{
   grid-column-start: 2;
   grid-column-end: 4;
-  text-align: center;
   padding: 100px 0px;
+}
+
+#picofme img{
+  width: 90%;
+  border-radius: 100%;
+}
+
+
+#aboutme{
+  grid-column-start: 4;
+  grid-column-end: 10;
+  text-align: right;
+  padding: 100px 0px;
+}
+
+#aboutme #icons a{
+    font-size: 28pt;
+    color: #a37a8e;
+    }
+
+#aboutme #icons a:hover{
+    color: #99ccb3;
 }
 
 #innergrid{
     grid-column-start: 2;
     grid-column-end: 4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+}
+
+#vidyagamesbg{
+  background: #becdde;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 5;
+
+  padding: 100px 0px;
+}
+
+#vidyagames{
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 100px 0px 40px 0px;
+}
+
+#vidyagamesimg{
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#vidyagamesimg .project{
+  margin: 10px;
+
 }
 
 .project{
