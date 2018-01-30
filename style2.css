@@ -29,48 +29,61 @@ a {
   background-size: 120px 120px;
   background-position: 0 0, 60px 60px; }
 
-#hello {
+.minigrid {
   display: grid;
-  grid-template-columns: 20% 1fr 20%;
-  padding: -10px;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 850px 1fr; }
+
+#hellobg {
+  grid-column: 1/4;
+  grid-row: 1;
   background-color: #7b658b; }
-  #hello .title {
-    grid-column-start: 2;
+
+#hello {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+  padding: 100px 0px; }
+  #hello h1 {
+    position: relative;
+    font-weight: 800;
+    font-size: 52pt;
+    color: #de84a9; }
+  #hello .lines {
+    color: transparent;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    -webkit-text-stroke: 2px #70cace;
+    text-stroke: 2px #70cace; }
+  #hello h2 {
     font-family: "Montserrat", sans-serif;
-    text-align: right;
-    padding: 100px 0px; }
-    #hello .title h1 {
-      position: relative;
-      font-weight: 800;
-      font-size: 52pt;
-      color: #de84a9; }
-    #hello .title .lines {
-      color: transparent;
-      position: absolute;
-      right: -3px;
-      top: -3px;
-      -webkit-text-stroke: 2px #70cace;
-      text-stroke: 2px #70cace; }
-    #hello .title h2 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 800;
-      font-size: 36pt;
-      color: #de84a9;
-      text-align: left; }
+    font-weight: 800;
+    font-size: 36pt;
+    color: #de84a9;
+    text-align: left; }
+
+#aboutbg {
+  grid-column: 1/4;
+  grid-row-start: 2;
+  background-color: #d9709b; }
 
 #aboutsection {
+  grid-column-start: 2;
+  grid-row-start: 2;
   display: grid;
-  grid-template-columns: 20% 1fr 3fr 20%;
-  background-color: #d9709b;
+  grid-template-columns: 1fr 3fr;
   color: #584466; }
   #aboutsection #picofme {
-    grid-column-start: 2;
     padding: 100px 0px; }
     #aboutsection #picofme img {
       width: 90%;
       border-radius: 100%; }
   #aboutsection #aboutme {
-    grid-column-start: 3;
     text-align: right;
     padding: 100px 0px; }
     #aboutsection #aboutme #icons a {
@@ -79,13 +92,16 @@ a {
       #aboutsection #aboutme #icons a:hover {
         color: #f4d5e1; }
 
+#vidyagamesbg {
+  grid-column: 1/4;
+  grid-row: 3;
+  background-color: #70cace; }
+
 #vidyagames {
-  display: grid;
-  grid-template-columns: 20% repeat(3, 1fr) 20%;
-  background-color: #70cace;
+  grid-column-start: 2;
+  grid-row-start: 3;
   padding: 100px 0px 100px 0px; }
   #vidyagames h3, #vidyagames p {
-    grid-column: 2/5;
     color: #584466; }
   #vidyagames .project {
     margin: 0px 2px; }
@@ -93,13 +109,16 @@ a {
       color: #584466;
       background-color: #cfedef; }
 
-#frontend {
-  display: grid;
-  grid-template-columns: 20% repeat(4, 1fr) 20%;
-  padding: 100px 0px;
+#frontendbg {
+  grid-column: 1/4;
+  grid-row-start: 4;
   background-color: #7b658b; }
+
+#frontend {
+  grid-column-start: 2;
+  grid-row-start: 4;
+  padding: 100px 0px; }
   #frontend h3, #frontend p {
-    grid-column: 2/6;
     color: #f1e6ea; }
   #frontend .project {
     margin: 0px 2px; }
@@ -107,13 +126,16 @@ a {
       color: #f1e6ea;
       background-color: #baacc3; }
 
+#artbg {
+  grid-column: 1/4;
+  grid-row-start: 5;
+  background-color: #d9709b; }
+
 #art {
-  display: grid;
-  grid-template-columns: 20% repeat(3, 1fr) 20%;
-  background-color: #d9709b;
+  grid-column-start: 2;
+  grid-row-start: 5;
   padding: 100px 0px 100px 0px; }
   #art h3, #art p {
-    grid-column: 2/5;
     color: #584466; }
   #art .project {
     margin: 0px 2px; }
@@ -151,26 +173,32 @@ a {
     font-size: 10pt;
     font-variant: normal; }
 
+#talksbg {
+  grid-column: 1/4;
+  grid-row-start: 6;
+  background-color: #70cace; }
+
 #talks {
-  display: grid;
-  grid-template-columns: 20% 1fr 20%;
-  background-color: #70cace;
+  grid-column: 2;
+  grid-row-start: 6;
   padding: 100px 0px 100px 0px; }
   #talks h3, #talks h4, #talks p, #talks ul {
-    grid-column: 2/3;
     color: #584466; }
 
+#followmebg {
+  grid-column: 1/4;
+  grid-row-start: 7;
+  background-color: #7b658b; }
+
 #followme {
-  display: grid;
-  grid-template-columns: 20% 1fr 20%;
-  background-color: #7b658b;
+  grid-column: 2;
+  grid-row-start: 7;
   padding: 50px 0px 50px 0px;
   font-size: 48pt;
   line-height: 30pt;
   text-align: center;
   color: #f1e6ea; }
   #followme h3, #followme p {
-    grid-column: 2/3;
     padding: 0; }
   #followme a {
     padding: -50px; }

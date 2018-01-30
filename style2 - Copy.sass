@@ -33,60 +33,49 @@ a
   background-size: 120px 120px
   background-position: 0 0, 60px 60px
 
-.minigrid
-  display: grid
-  grid-template-columns: 1fr 1fr 1fr
 
-#grid
-  display: grid
-  grid-template-columns: 1fr 850px 1fr
-
-#hellobg
-  grid-column: 1/4
-  grid-row: 1
-  background-color: $purple
 #hello
-  grid-column-start: 2
-  grid-row-start: 1
-  font-family: 'Montserrat', sans-serif
-  text-align: right
-  padding: 100px 0px
-  h1
-    position: relative
-    font-weight: 800
-    font-size: 52pt
-    color: lighten($pink, 5%)
-  .lines
-    color: transparent
-    position: absolute
-    right: -3px
-    top: -3px
-    -webkit-text-stroke: 2px $blue
-    text-stroke: 2px  $blue
-  h2
+  display: grid
+  grid-template-columns: 20% 1fr 20%
+  padding: -10px
+  background-color: $purple
+  .title
+    grid-column-start: 2
     font-family: 'Montserrat', sans-serif
-    font-weight: 800
-    font-size: 36pt
-    color:  lighten($pink, 5%)
-    text-align: left
-
-#aboutbg
-    grid-column: 1/4
-    grid-row-start: 2
-    background-color: $pink
+    text-align: right
+    padding: 100px 0px
+    h1
+      position: relative
+      font-weight: 800
+      font-size: 52pt
+      color: lighten($pink, 5%)
+    .lines
+      color: transparent
+      position: absolute
+      right: -3px
+      top: -3px
+      -webkit-text-stroke: 2px $blue
+      text-stroke: 2px  $blue
+    h2
+      font-family: 'Montserrat', sans-serif
+      font-weight: 800
+      font-size: 36pt
+      color:  lighten($pink, 5%)
+      text-align: left
 
 #aboutsection
-  grid-column-start: 2
-  grid-row-start: 2
   display: grid
-  grid-template-columns: 1fr 3fr
+  grid-template-columns: 20% 1fr 3fr 20%
+  background-color: $pink
   color: #584466
   #picofme
+    grid-column-start: 2
     padding: 100px 0px
     img
       width: 90%
       border-radius: 100%
   #aboutme
+    grid-column-start: 3
     text-align: right
     padding: 100px 0px
     #icons
@@ -96,15 +85,13 @@ a
         &:hover
           color: lighten($pink, 25%)
 
-#vidyagamesbg
-  grid-column: 1/4
-  grid-row: 3
-  background-color: $blue
 #vidyagames
-  grid-column-start: 2
-  grid-row-start: 3
+  display: grid
+  grid-template-columns: 20% repeat(3, 1fr) 20%
+  background-color: $blue
   padding: 100px 0px 100px 0px
   h3, p
+    grid-column: 2 / 5
     color: #584466
   .project
     margin: 0px 2px
@@ -112,15 +99,13 @@ a
       color: #584466
       background-color: lighten($blue, 25%)
 
-#frontendbg
-  grid-column: 1/4
-  grid-row-start: 4
-  background-color: $purple
 #frontend
-  grid-column-start: 2
-  grid-row-start: 4
+  display: grid
+  grid-template-columns: 20% repeat(4, 1fr) 20%
   padding: 100px 0px
+  background-color: $purple
   h3, p
+    grid-column: 2 / 6
     color: #f1e6ea
   .project
     margin: 0px 2px
@@ -128,15 +113,13 @@ a
       color: #f1e6ea
       background-color: lighten($purple, 25%)
 
-#artbg
-  grid-column: 1/4
-  grid-row-start: 5
-  background-color: $pink
 #art
-  grid-column-start: 2
-  grid-row-start: 5
+  display: grid
+  grid-template-columns: 20% repeat(3, 1fr) 20%
+  background-color: $pink
   padding: 100px 0px 100px 0px
   h3, p
+    grid-column: 2 / 5
     color: #584466
   .project
     margin: 0px 2px
@@ -174,30 +157,26 @@ a
     font-size: 10pt
     font-variant: normal
 
-#talksbg
-  grid-column: 1/4
-  grid-row-start: 6
-  background-color: $blue
 #talks
-  grid-column: 2
-  grid-row-start: 6
+  display: grid
+  grid-template-columns: 20% 1fr 20%
+  background-color: $blue
   padding: 100px 0px 100px 0px
   h3, h4, p, ul
+    grid-column: 2 / 3
     color: #584466
 
-#followmebg
-  grid-column: 1/4
-  grid-row-start: 7
-  background-color: $purple
 #followme
-  grid-column: 2
-  grid-row-start: 7
+  display: grid
+  grid-template-columns: 20% 1fr 20%
+  background-color: $purple
   padding: 50px 0px 50px 0px
   font-size: 48pt
   line-height: 30pt
   text-align: center
   color: #f1e6ea
   h3, p
+    grid-column: 2 / 3
     padding: 0
   a
     padding: -50px
