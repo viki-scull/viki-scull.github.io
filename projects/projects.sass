@@ -1,0 +1,95 @@
+$duskyPurple: #4C387B
+$pink: #90396A
+$paleTeal: #16a085
+$skyBlue: #3498db
+$lightGrey: #eaeaea
+$lightPink: #CF92B5
+
+@import url('https://fonts.googleapis.com/css?family=Jacques+Francois|Open+Sans|Quicksand:400,700')
+
+body
+  background-image:  linear-gradient($duskyPurple, $pink)
+  color: #eaeaea
+  padding-top: 30px
+
+.header
+  width: 100%
+  margin-top: -40px
+  margin-left: -8px
+  padding: 10px
+  background: $lightGrey
+  position: fixed
+  text-align: right
+  z-index: 10
+  a
+    text-decoration: none
+    font-size: 16pt
+    color: $duskyPurple
+    font-family: 'Jacques Francois', serif
+    padding: 0px 35px
+.container
+    display: grid
+    grid-template-columns: 1fr 200px 200px 200px 300px 1fr
+    grid-column-gap: 6px
+    grid-row-gap: 2px
+    margin-top: 150px
+    margin-bottom: 100px
+    img
+      width: 100%
+    .cell
+      hr
+        border: 25px solid transparent
+      // border: 2px solid #ffa94d
+    .bigImgs
+      grid-column: 2 / span 3
+    .smlImgs1
+      grid-column: 2
+    .smlImgs2
+      grid-column: 3
+    .smlImgs3
+      grid-column: 4
+    .textBox
+      grid-row: 1 /span 3
+      grid-column: 5
+      padding-left: 20px
+    .textBoxSml
+      grid-column: 5
+      padding-left: 20px
+
+h1, h2
+  font-weight: 100
+  text-align: center
+  color: $lightGrey
+  font-family: 'Jacques Francois', serif
+  text-align: right
+h1
+  font-size: 16pt
+h2
+  font-size: 11pt
+  line-height: 12pt
+p
+  font-family: 'Open Sans', serif
+  font-size: 10pt
+  text-align: justify
+li
+  font-family: 'Open Sans', serif
+  font-size: 10pt
+  a
+    color: $lightGrey
+
+h3
+  font-family: 'Quicksand', serif
+  font-size: 12pt
+  padding: 10px 25px
+  border-radius: 10px
+  background: $lightGrey
+  color: $duskyPurple
+  text-align: center
+  a
+    color: $duskyPurple
+    text-decoration: none
+
+.divider
+  height: 35px
+  width: 100%
+  // background: blue
