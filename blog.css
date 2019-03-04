@@ -49,7 +49,7 @@ h2 a {
       font-size: 10pt; }
   .container .sideBar {
     grid-column: 3; }
-    .container .sideBar img {
+    .container .sideBar .avatar {
       width: 100px; }
     .container .sideBar p {
       font-size: 10pt; }
