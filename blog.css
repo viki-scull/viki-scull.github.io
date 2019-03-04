@@ -27,4 +27,16 @@ body {
 .brand {
   font-variant: normal; }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 600px 300px 1fr;
+  grid-column-gap: 6px;
+  grid-row-gap: 2px;
+  margin-top: 150px;
+  margin-bottom: 100px; }
+  .container .posts {
+    grid-column: 2; }
+  .container .sideBar {
+    grid-column: 3; }
+
 /*# sourceMappingURL=blog.css.map */
