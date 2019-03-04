@@ -32,7 +32,7 @@ h2 a {
   font-family: "Jacques Francois", serif;
   background: #eaeaea;
   color: #4C387B;
-  padding: 0px 15px;
+  padding: 5px 20px;
   text-decoration: none;
   font-weight: normal; }
 
@@ -45,7 +45,13 @@ h2 a {
   margin-bottom: 100px; }
   .container .posts {
     grid-column: 2; }
+    .container .posts .muted {
+      font-size: 10pt; }
   .container .sideBar {
     grid-column: 3; }
+    .container .sideBar img {
+      width: 75%; }
+    .container .sideBar p {
+      font-size: 10pt; }
 
 /*# sourceMappingURL=blog.css.map */
