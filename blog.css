@@ -50,7 +50,7 @@ h2 a {
   .container .sideBar {
     grid-column: 3; }
     .container .sideBar img {
-      width: 75%; }
+      width: 100px; }
     .container .sideBar p {
       font-size: 10pt; }
 
