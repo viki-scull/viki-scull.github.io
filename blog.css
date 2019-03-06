@@ -28,13 +28,14 @@ body {
 .brand {
   font-variant: normal; }
 
-h2 a {
+h1, h2 {
   font-family: "Jacques Francois", serif;
   background: #eaeaea;
   color: #4C387B;
   padding: 5px 20px;
-  text-decoration: none;
   font-weight: normal; }
+  h1 a, h2 a {
+    text-decoration: none; }
 
 .container {
   display: grid;
@@ -76,5 +77,8 @@ h2 a {
       display: inline; }
     .container .sideBar .tags ul {
       list-style-image: none; }
+
+.post-content img {
+  width: 75%; }
 
 /*# sourceMappingURL=blog.css.map */
