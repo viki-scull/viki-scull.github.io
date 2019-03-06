@@ -84,12 +84,12 @@ h1, h2 {
   overflow: hidden;
   padding-top: 10px;
   padding-bottom: 10px; }
-  .post-content * a {
-    color: pink; }
   .post-content * img {
     width: 80% !important; }
   .post-content * li {
     padding-top: -10px;
     padding-bottom: -10px; }
+    .post-content * li a {
+      color: orange; }
 
 /*# sourceMappingURL=blog.css.map */
