@@ -80,7 +80,8 @@ h1, h2 {
 
 .post-content * {
   width: 100%; }
-.post-content img {
+
+img {
   width: 50;
   height: 50;
   border: solid 10px purple; }
