@@ -79,7 +79,8 @@ h1, h2 {
       list-style-image: none; }
 
 .post-content img {
-  width: 50px;
+  width: 50;
+  height: 50;
   border: solid 10px pink; }
 
 /*# sourceMappingURL=blog.css.map */
