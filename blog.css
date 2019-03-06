@@ -84,4 +84,9 @@ h1, h2 {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+img {
+  width: 50px !important;
+  height: 50px !important;
+  border: solid 10px red; }
+
 /*# sourceMappingURL=blog.css.map */
