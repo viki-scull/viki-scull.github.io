@@ -34,7 +34,7 @@ h1, h2 {
   color: #4C387B;
   padding: 5px 20px;
   font-weight: normal;
-  font-size: 24pt; }
+  font-size: 16pt; }
   h1 a, h2 a {
     text-decoration: none; }
 
@@ -84,10 +84,7 @@ h1, h2 {
   overflow: hidden;
   padding-top: 10px;
   padding-bottom: 10px; }
-
-img {
-  width: 50px !important;
-  height: 50px !important;
-  border: solid 10px red; }
+  .post-content * img {
+    width: 80% !important; }
 
 /*# sourceMappingURL=blog.css.map */
