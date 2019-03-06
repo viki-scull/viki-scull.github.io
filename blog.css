@@ -68,6 +68,10 @@ h2 a {
       font-size: 10pt; }
     .container .sideBar a {
       color: #eaeaea; }
+    .container .sideBar .social a {
+      text-decoration: none;
+      font-size: 24pt;
+      text-align: right; }
     .container .sideBar .social li {
       display: inline; }
 
