@@ -74,5 +74,7 @@ h2 a {
       text-align: right; }
     .container .sideBar .social li {
       display: inline; }
+    .container .sideBar .tags ul {
+      list-style-image: none; }
 
 /*# sourceMappingURL=blog.css.map */
