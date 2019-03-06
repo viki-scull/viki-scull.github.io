@@ -85,12 +85,11 @@ h1, h2 {
   padding-top: 10px;
   padding-bottom: 10px; }
   .post-content * a {
-    color: #eaeaea; }
+    color: pink; }
   .post-content * img {
     width: 80% !important; }
-
-.post-content * * li {
-  padding-top: -10px;
-  padding-bottom: -10px; }
+  .post-content * li {
+    padding-top: -10px;
+    padding-bottom: -10px; }
 
 /*# sourceMappingURL=blog.css.map */
