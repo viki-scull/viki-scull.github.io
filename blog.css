@@ -33,7 +33,8 @@ h1, h2 {
   background: #eaeaea;
   color: #4C387B;
   padding: 5px 20px;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 24pt; }
   h1 a, h2 a {
     text-decoration: none; }
 
