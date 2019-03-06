@@ -68,5 +68,7 @@ h2 a {
       font-size: 10pt; }
     .container .sideBar a {
       color: #eaeaea; }
+    .container .sideBar .social li {
+      display: inline; }
 
 /*# sourceMappingURL=blog.css.map */
