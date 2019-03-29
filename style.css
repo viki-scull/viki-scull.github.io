@@ -100,7 +100,11 @@ h3 {
   height: 100%;
   background-image: url("https://picsum.photos/250/250/?image=870");
   background-size: cover;
-  overflow: hidden; }
+  -o-transform: skewY(-30deg) rotate(60deg);
+  -moz-transform: skewY(-30deg) rotate(60deg);
+  -webkit-transform: skewY(-30deg) rotate(60deg);
+  -ms-transform: skewY(-30deg) rotate(60deg);
+  transform: skewY(-30deg) rotate(60deg); }
   .hexagon a {
     text-decoration: none; }
   .hexagon p {
