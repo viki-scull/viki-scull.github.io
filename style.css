@@ -52,7 +52,7 @@ h3 {
     margin: 0px 10px;
     color: #eaeaea;
     opacity: 0.5; }
-  .navbar .active {
+  .navbar .btn[aria-pressed="true"] {
     border: 2px solid #eaeaea;
     opacity: 1; }
 
