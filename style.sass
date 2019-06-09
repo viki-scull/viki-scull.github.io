@@ -48,6 +48,24 @@ h3
 // .ar
 //   color: desaturate(lighten($skyBlue, 15%), 50%)
 
+.navbar
+  text-align: center
+  button
+    font-family: 'Quicksand', serif
+    font-size: 12pt
+    background: transparent
+    border: 1px solid $lightGrey
+    border-radius: 10px
+    cursor: pointer
+    padding: 5px 10px
+    margin: 0px 10px
+    color: $lightGrey
+    opacity: 0.5
+  .active
+    border: 2px solid $lightGrey
+    opacity: 1
+
+
 .container
   display: grid
   grid-template-columns: repeat(10, 100px)

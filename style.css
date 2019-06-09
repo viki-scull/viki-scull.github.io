@@ -39,6 +39,23 @@ h3 {
   font-family: "Quicksand", serif;
   font-size: 12pt; }
 
+.navbar {
+  text-align: center; }
+  .navbar button {
+    font-family: "Quicksand", serif;
+    font-size: 12pt;
+    background: transparent;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    color: #eaeaea;
+    opacity: 0.5; }
+  .navbar .active {
+    border: 2px solid #eaeaea;
+    opacity: 1; }
+
 .container {
   display: grid;
   grid-template-columns: repeat(10, 100px);

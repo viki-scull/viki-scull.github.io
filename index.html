@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+
 </head>
 <body>
   <div class="header">
@@ -15,6 +17,14 @@
   <h2>I'm a digital designer living in Bristol. Check out these things I've worked on</h2>
   <h3> <span class="games">video games</span> - <span class="ar">augmented reality</span> - creative coding - illustration</h3>
   <h2> This site is still under construction, and there's still plenty more to be put on it and some links may not work</h2>
+
+  <div class="navbar">
+    <button class="active btn" data-filter="box" aria-pressed="true">Everything</button>
+    <button class="btn" data-filter="one" aria-pressed="false">Games</button>
+    <button class="btn" data-filter="two" aria-pressed="false">CSS & Creative Coding</button>
+    <button class="btn" data-filter="three" aria-pressed="false">Random Generators</button>
+  </div>
+
 
 <div class="container">
   <div class="item"><div class="hexagon" style="background-image: url(icons/2019/princess.png);">
@@ -179,8 +189,50 @@ I love creating beautiful worlds, and bringing my knowledge of other art forms i
 </div> -->
 
 
+<script>
+
+(function($) {
+  var $boxs = $(".container > .item");
+  var $btns = $(".btn").on("click", function() {
+    var category = $btns
+      .attr("aria-pressed", "false")
+      .filter(this)
+      .attr("aria-pressed", "true")
+      .data("filter");
+
+    $boxs
+      .hide()
+      .attr("aria-hidden", "true")
+      .filter("." + category)
+      .attr("aria-hidden", "false")
+      .fadeIn(450);
+  });
+
+  jQuery(document).ready(function($) {
+    // get category from URL hash
+    var category = window.location.hash.substring(1);
+    // find matching button
+    var activeBtn = $(".btn").filter(function() {
+      return $(this).data("filter") == category;
+    });
+
+    if ($btns.filter(activeBtn).length == 1) {
+      $btns
+        .attr("aria-pressed", "false")
+        .filter(activeBtn)
+        .attr("aria-pressed", "true");
+      $boxs
+        .hide()
+        .filter("." + category)
+        .fadeIn(450);
+    }
+  });
+})(jQuery);
+
+</script>
 
 
 
 
 </body>
+</html>
