@@ -116,28 +116,35 @@ I love creating beautiful worlds, and bringing my knowledge of other art forms i
 $(document).ready(function(){
 
   var projects = [
-["Princess to <br> the Rescue", "games",  "19/princess.png",    "princesstotherescue.html", "video game"],
-["Ada Lovelace",                "cc",     "19/ada.png",         "codepenchallenges.html#ada", "Code Pen CSS Challenge"],
-["Neon Noir Cafe",              "cc",     "19/colourpop.png",   "codepenchallenges.html#colourpop", "Code Pen CSS Challenge"],
-["Peach Beach",                 "cc",     "19/peachbeach.png",  "codepenchallenges.html#peachbeach", "Code Pen CSS Challenge"],
-["Combee",                      "cc",     "18/air.png",         "codepenchallenges.html#air", "Code Pen CSS Challenge"],
-["Jellyfish",                   "cc",     "18/jellyfish.png",   "codepenchallenges.html#jellyfish", "Code Pen CSS Challenge"],
-["Flying Together",             "games",  "18/flyingtogether.png",  "flyingtogether.html", "Fuse Jam Entry"],
-["Macaron<br>Generator",        "cc randoms", "18/macaron.png", "macarons.html", "Code Pen CSS Challenge"],
-["CSS Images",                  "cc",     "17/cssimg.png",      "cssimages.html", "HTML & CSS"],
-["Save the Seeds",              "games",  "17/saveseeds.png",   "savetheseeds.html", "Resist Jam <br> Game Jam Entry"],
+["Princess to <br> the Rescue", "all games",  "19/princess.png",    "princesstotherescue.html", "video game"],
+["Ada Lovelace",                "all cc",     "19/ada.png",         "codepenchallenges.html#ada", "Code Pen CSS Challenge"],
+["Neon Noir Cafe",              "all cc",     "19/colourpop.png",   "codepenchallenges.html#colourpop", "Code Pen CSS Challenge"],
+["Peach Beach",                 "all cc",     "19/peachbeach.png",  "codepenchallenges.html#peachbeach", "Code Pen CSS Challenge"],
+["Combee",                      "all cc",     "18/air.png",         "codepenchallenges.html#air", "Code Pen CSS Challenge"],
+["Jellyfish",                   "all cc",     "18/jellyfish.png",   "codepenchallenges.html#jellyfish", "Code Pen CSS Challenge"],
+["Flying Together",             "all games",  "18/flyingtogether.png",  "flyingtogether.html", "Fuse Jam Entry"],
+["Macaron<br>Generator",        "all cc randoms", "18/macaron.png", "macarons.html", "Code Pen CSS Challenge"],
+["CSS Images",                  "all cc",     "17/cssimg.png",      "cssimages.html", "HTML & CSS"],
+["Save the Seeds",              "all games",  "17/saveseeds.png",   "savetheseeds.html", "Resist Jam <br> Game Jam Entry"],
 
   ];
 
+  setProjects("all");
+
   $("button").on("click", function(){
     $("#projects").empty();
+    setProjects(this.id);
+  });
+
+  function setProjects(idName){
     for(var q=0; q<projects.length; q++){
-      if(projects[q][1].includes(this.id,0)){
+      if(projects[q][1].includes(idName,0)){
       // if(projects[q][1] == this.id){
         $("#projects").append("<div class=\"item\"> <div class=\"hexagon\" style=\"background-image: url(icons/20"+ projects[q][2] +");\"> <a href=\"projects/" + projects[q][3] + ".html\"> <p>" + projects[q][0] + "<br> <span class=\"sub\">" + projects[q][4] + "    </a></div></div>");
       }
     }
-  });
+  }
+
 })
 
 // (function($) {
