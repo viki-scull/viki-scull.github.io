@@ -19,93 +19,15 @@
   <h2> This site is still under construction, and there's still plenty more to be put on it and some links may not work</h2>
 
   <div class="navbar">
-    <button class="active btn" data-filter="item" aria-pressed="true">Everything</button>
-    <button class="btn" data-filter="games" aria-pressed="false">Games</button>
-    <button class="btn" data-filter="cc" aria-pressed="false">CSS & Creative Coding</button>
-    <button class="btn" data-filter="randoms" aria-pressed="false">Random Generators</button>
+    <button class="active btn" id="all" aria-pressed="true">Everything</button>
+    <button class="btn" id="games" aria-pressed="false">Games</button>
+    <button class="btn" id="cc" aria-pressed="false">CSS & Creative Coding</button>
+    <button class="btn" id="randoms" aria-pressed="false">Random Generators</button>
   </div>
 
 
-<div class="container">
-  <div class="item games"><div class="hexagon" style="background-image: url(icons/2019/princess.png);">
-    <a href="projects/princesstotherescue.html">
-      <p>Princess to <br> the Rescue <br>
-        <span class="sub">video game</span></p>
-    </a>
-  </div></div>
+<div class="container" id="projects">
 
-  <div class="item cc"><div class="hexagon" style="background-image: url(icons/2019/ada.png);">
-    <a href="projects/codepenchallenges.html#ada">
-      <br>
-      <p>Ada Lovelace<br>
-      <span class="sub">Code Pen CSS Challenge</span></p>
-    </a>
-  </div></div>
-
-<!-- 2019 January -->
-  <div class="item cc"><div class="hexagon" style="background-image: url(icons/2019/colourpop.png);">
-    <a href="projects/codepenchallenges.html#colourpop">
-      <br>
-      <p>Neon Noir Cafe<br>
-      <span class="sub">Code Pen CSS Challenge</span></p>
-    </a>
-  </div></div>
-<!-- 2019 January -->
-  <div class="item cc"><div class="hexagon" style="background-image: url(icons/2019/peachbeach.png);">
-    <a href="projects/codepenchallenges.html#peachbeach">
-      <br>
-      <p>Peach Beach<br>
-      <span class="sub">Code Pen CSS Challenge</span></p>
-    </a>
-  </div></div>
-<!-- 2018 December -->
-  <div class="item cc"><div class="hexagon" style="background-image: url(icons/2018/air.png);">
-    <a href="projects/codepenchallenges.html#air">
-      <br>
-      <p>Combee<br>
-      <span class="sub">Code Pen CSS Challenge</span></p>
-    </a>
-  </div></div>
-<!-- 2018 November -->
-  <div class="item"><div class="hexagon" style="background-image: url(icons/2018/jellyfish.png);">
-    <a href="projects/codepenchallenges.html#jellyfish">
-      <br>
-      <p>Jellyfish<br>
-      <span class="sub">Code Pen CSS Challenge</span></p>
-    </a>
-  </div></div>
-<!-- 2018 September -->
-  <div class="item games"><div class="hexagon" style="background-image: url(icons/2018/flyingtogether.png);">
-    <a href="projects/flyingtogether.html">
-      <br>
-      <p>Flying Together<br>
-      <span class="sub">Fuse Jam Entry</span></p>
-    </a>
-  </div></div>
-
-<!-- 2018 June -->
-  <div class="item cc randoms"><div class="hexagon" style="background-image: url(icons/2018/macaron.png);">
-    <a href="projects/macarons.html">
-      <p>Macaron <br> Generator<br>
-        <span class="sub">React & SVG</span></p>
-    </a>
-  </div></div>
-
-<!-- 2017 August -->
-  <div class="item cc"><div class="hexagon" style="background-image: url(icons/2017/cssimg.png);">
-    <a href="projects/cssimages.html">
-      <p><br>CSS Images<br>
-        <span class="sub">HTML & CSS</span></p>
-    </a>
-  </div></div>
-
-<!-- 2017 March -->
-  <div class="item games"><div class="hexagon" style="background-image: url(icons/2017/saveseeds.png);">
-    <a href="projects/savetheseeds.html">
-      <p>Save the Seeds<br>
-        <span class="sub">Resist Jam <br> Game Jam Entry</span></p>
-    </a>
-  </div></div>
 
   <div class="item">
     <!-- <div class="hexagon"> -->
@@ -191,43 +113,70 @@ I love creating beautiful worlds, and bringing my knowledge of other art forms i
 
 <script>
 
-(function($) {
-  var $boxs = $(".container > .item");
-  var $btns = $(".btn").on("click", function() {
-    var category = $btns
-      .attr("aria-pressed", "false")
-      .filter(this)
-      .attr("aria-pressed", "true")
-      .data("filter");
+$(document).ready(function(){
 
-    $boxs
-      .hide()
-      .attr("aria-hidden", "true")
-      .filter("." + category)
-      .attr("aria-hidden", "false")
-      .fadeIn(450);
-  });
+  var projects = [
+["Princess to <br> the Rescue", "cc",   "icons/2019/princess.png",  "princesstotherescue.html", "video game"],
+["Ada Lovelace",    "cc",   "icons/2019/ada.png",  "codepenchallenges.html#ada", "Code Pen CSS Challenge"],
+["Neon Noir Cafe",  "cc", "icons/2019/colourpop.png",  "codepenchallenges.html#colourpop", "Code Pen CSS Challenge"],
+["Peach Beach",     "cc", "icons/2019/peachbeach.png",  "codepenchallenges.html#peachbeach", "Code Pen CSS Challenge"],
+["Combee",          "cc", "icons/2018/air.png",  "codepenchallenges.html#air", "Code Pen CSS Challenge"],
+["Jellyfish",       "cc", "icons/2018/jellyfish.png",  "codepenchallenges.html#jellyfish", "Code Pen CSS Challenge"],
+["Flying Together",       "games", "icons/2018/flyingtogether.png",  "flyingtogether.html", "Fuse Jam Entry"],
+["Macaron<br>Generator",  "cc randoms", "icons/2018/macaron.png",  "macarons.html", "Code Pen CSS Challenge"],
+["CSS Images",            "cc", "icons/2017/cssimg.png",  "cssimages.html", "HTML & CSS"],
+["Save the Seeds",        "games", "(icons/2017/saveseeds.png",  "savetheseeds.html", "Resist Jam <br> Game Jam Entry"],
 
-  jQuery(document).ready(function($) {
-    // get category from URL hash
-    var category = window.location.hash.substring(1);
-    // find matching button
-    var activeBtn = $(".btn").filter(function() {
-      return $(this).data("filter") == category;
-    });
+  ];
 
-    if ($btns.filter(activeBtn).length == 1) {
-      $btns
-        .attr("aria-pressed", "false")
-        .filter(activeBtn)
-        .attr("aria-pressed", "true");
-      $boxs
-        .hide()
-        .filter("." + category)
-        .fadeIn(450);
+  $("button").on("click", function(){
+    $("#container").empty();
+    for(var q=0; q<projects.length; q++){
+      if(projects[q][1].includes(this.id,0)){
+      // if(projects[q][1] == this.id){
+        $("#container").append("<div class=\"item\"> <div class=\"hexagon\" style=\"background-image: url("+ projects[q][2] +");\"> <a href=\"projects/" + projects[q][3] + ".html\"> <p>" + projects[q][0] + "<br> <span class=\"sub\">" + projects[q][4] + "    </a></div></div>");
+      }
     }
   });
-})(jQuery);
+})
+
+// (function($) {
+//   var $boxs = $(".container > .item");
+//   var $btns = $(".btn").on("click", function() {
+//     var category = $btns
+//       .attr("aria-pressed", "false")
+//       .filter(this)
+//       .attr("aria-pressed", "true")
+//       .data("filter");
+//
+//     $boxs
+//       .hide()
+//       .attr("aria-hidden", "true")
+//       .filter("." + category)
+//       .attr("aria-hidden", "false")
+//       .fadeIn(450);
+//   });
+//
+//   jQuery(document).ready(function($) {
+//     // get category from URL hash
+//     var category = window.location.hash.substring(1);
+//     // find matching button
+//     var activeBtn = $(".btn").filter(function() {
+//       return $(this).data("filter") == category;
+//     });
+//
+//     if ($btns.filter(activeBtn).length == 1) {
+//       $btns
+//         .attr("aria-pressed", "false")
+//         .filter(activeBtn)
+//         .attr("aria-pressed", "true");
+//       $boxs
+//         .hide()
+//         .filter("." + category)
+//         .fadeIn(450);
+//     }
+//   });
+// })(jQuery);
 
 </script>
 
