@@ -19,10 +19,10 @@
   <h2> This site is still under construction, and there's still plenty more to be put on it and some links may not work</h2>
 
   <div class="navbar">
-    <button class="active btn" id="all" aria-pressed="true">Everything</button>
-    <button class="btn" id="games" aria-pressed="false">Games</button>
-    <button class="btn" id="cc" aria-pressed="false">CSS & Creative Coding</button>
-    <button class="btn" id="randoms" aria-pressed="false">Random Generators</button>
+    <button class="active btn" id="all">Everything</button>
+    <button class="btn" id="games">Games</button>
+    <button class="btn" id="cc">CSS & Creative Coding</button>
+    <button class="btn" id="randoms">Random Generators</button>
   </div>
 
 
@@ -39,7 +39,7 @@
     <div class="imgOutline"></div>
   </div>
   <div class="greenBG" id="aboutMe">
-    <h2>about me!!!</h2>
+    <h2>about me</h2>
     <p>
       I work as a programmer, building augmented reality software in the south west of England. In my spare time, I make little video games
       (taking part in lots of game jams), and love drawing and creating digital art.
@@ -127,14 +127,19 @@ $(document).ready(function(){
   setProjects("all");
 
   $("button").on("click", function(){
+    $("#all").removeClass("active");
+    $("#games").removeClass("active");
+    $("#cc").removeClass("active");
+    $("#randoms").removeClass("active");
+
     $("#projects").empty();
+    $(this.id).addClass("active");
     setProjects(this.id);
   });
 
   function setProjects(idName){
     for(var q=0; q<projects.length; q++){
       if(projects[q][1].includes(idName,0)){
-      // if(projects[q][1] == this.id){
         $("#projects").append("<div class=\"item\"> <div class=\"hexagon\" style=\"background-image: url(icons/20"+ projects[q][2] +");\"> <a href=\"projects/" + projects[q][3] + "\"> <p>" + projects[q][0] + "<br> <span class=\"sub\">" + projects[q][4] + "    </a></div></div>");
       }
     }

@@ -52,7 +52,7 @@ h3 {
     margin: 0px 10px;
     color: #eaeaea;
     opacity: 0.5; }
-  .navbar .btn[aria-pressed="true"] {
+  .navbar .active {
     border: 2px solid #eaeaea;
     opacity: 1; }
 
@@ -69,6 +69,7 @@ h3 {
   margin-right: auto; }
 
 .container {
+  margin-top: 10px;
   margin-bottom: 100px; }
 
 .item {
