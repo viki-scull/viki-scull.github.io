@@ -25,9 +25,10 @@ $lightPink: #CF92B5
     font-family: 'Jacques Francois', serif
     padding: 0px 35px
 body
-  background-image: linear-gradient(darken($pink, 0%), darken($duskyPurple, 10%), darken($teal, 15%))
-  color: #319FBD
+  background-image:  linear-gradient(darken($duskyPurple, 10%), darken($pink, 10%))
+  color: #eaeaea
   padding-top: 30px
+  text-align: left
 h1, h2, h3
   font-weight: 100
   text-align: center
@@ -67,98 +68,57 @@ h3
     border: 2px solid $lightGrey
     opacity: 1
 
+.sectionTitle
+  font-family: 'Jacques Francois', serif
+  font-size: 28pt
+  grid-column: 1 / 13
+  // border: 1px solid white
+  text-align: left
+  color: $lightGrey
+  padding: 100px 0px 25px 0px
 
-#projects, .container
+.container
   display: grid
-  grid-template-columns: repeat(10, 100px)
-  grid-column-gap: 5px
-  margin-top: 150px
-  margin-bottom: 10px
+  grid-template-columns: repeat(12, 1fr)
+  grid-column-gap: 2px
+  margin-bottom: 100px
   margin-left: 50px
   width: 1040px
   position: relative
   margin-left: auto
   margin-right: auto
 
-.container
-  margin-top: 10px
-  margin-bottom: 100px
 .item
-  grid-column: span 2
-  width: 200px
-  padding: 0 0 231px 0
-  -o-transform: rotate(-60deg) skewY(30deg)
-  -moz-transform: rotate(-60deg) skewY(30deg)
-  -webkit-transform: rotate(-60deg) skewY(30deg)
-  -ms-transform: rotate(-60deg) skewY(30deg)
-  transform: rotate(-60deg) skewY(30deg)
-  background: #fd005f
+  grid-column: span 4
   overflow: hidden
-  visibility: hidden
-  margin-top: -50px
+  // border: solid white 1px
+  margin-bottom: 2px
+  background: desaturate(darken($duskyPurple, 20%), 25%)
+  // &:hover
+  //   opacity: 25%
 
-// @media(min-device-width: )
-//   .item
-//     border-radius: 100%
-
-.item:nth-child(9n+1)
-  grid-column-start: 1
-.item:nth-child(9n+2)
-  grid-column-start: 3
-.item:nth-child(9n+3)
-  grid-column-start: 5
-.item:nth-child(9n+4)
-  grid-column-start: 7
-.item:nth-child(9n+5)
-  grid-column-start: 9
-.item:nth-child(9n+6)
-  grid-column-start: 2
-.item:nth-child(9n+7)
-  grid-column-start: 4
-.item:nth-child(9n+8)
-  grid-column-start: 6
-.item:nth-child(9n)
-  grid-column-start: 8
-
-.hexagon
-  position: absolute
-  top: 0
-  left: 0
-  width: 100%
-  height: 100%
-  background-image: url("https://picsum.photos/250/250/?image=870")
-  background-size: cover
-  -o-transform: skewY(-30deg) rotate(60deg)
-  -moz-transform: skewY(-30deg) rotate(60deg)
-  -webkit-transform: skewY(-30deg) rotate(60deg)
-  -ms-transform: skewY(-30deg) rotate(60deg)
-  transform: skewY(-30deg) rotate(60deg)
-  // overflow: hidden
+  img
+    max-width: 100%
+    // height: auto
+    padding: 0
+    &:hover
+      opacity: 25%
   a
     text-decoration: none
   p
-    padding-top: 50%
-    margin-top: -25px
-    height: 100%
-    opacity: 0
-    background: $lightPink
-    font-family: 'Jacques Francois', serif
+    position: relative
+    // top: -22px
+    // background: desaturate(darken($duskyPurple, 20%), 25%)
+    font-family: 'Quicksand', serif
     font-weight: 500
-    font-size: 16pt
-    color: $duskyPurple
-    text-align: center
-    -webkit-transition-duration: 0.3s
-    transition-duration: 0.3s
-    -webkit-transition-property: opacity
-    transition-property: opacity
-    &:hover
-      opacity: 0.95
-    .sub
-      font-family: 'Quicksand', serif
-      font-size: 10pt
-
-.item *
-  visibility: visible
+    font-size: 14pt
+    color: $lightGrey
+    text-align: right
+    line-height: 14pt
+    padding: 0px 10px
+  .sub
+    font-family: 'Quicksand', serif
+    font-size: 10pt
 
 
 /**** About Me ****/
@@ -166,8 +126,8 @@ h3
   margin-left: -500px
   padding-left: 500px
   grid-column: 2 / span 2
-  // padding: 40px 0px
   margin-top: 200px
+  text-align: left
   img
     border-radius: 100%
     height: 200px
@@ -181,16 +141,18 @@ h3
     border-radius: 100%
     content: ""
     border: 2px solid $lightGrey
-#aboutMe
-  grid-column: 4 / 10
+.aboutMe
+  grid-column: 4 / 12
   padding: 50px
   margin-left: -50px
   padding-left: 100px
   margin-top: 100px
+  text-align: left
 .greenBG
   color: $lightGrey
   font-family: 'Quicksand', serif
   font-size: 11pt
+  text-align: left
   h2
     text-align: left
     color: $lightGrey
@@ -202,50 +164,3 @@ h3
       color: $lightGrey
       &:hover
         opacity: 0.5
-
-/**** Responsive wizardry ****/
-
-@media(max-width: 1100px)
-  .container
-    grid-template-columns: repeat(8, 100px)
-    width: 830px
-  .item:nth-child(7n+1)
-    grid-column-start: 1
-  .item:nth-child(7n+2)
-    grid-column-start: 3
-  .item:nth-child(7n+3)
-    grid-column-start: 5
-  .item:nth-child(7n+4)
-    grid-column-start: 7
-  .item:nth-child(7n+5)
-    grid-column-start: 2
-  .item:nth-child(7n+6)
-    grid-column-start: 4
-  .item:nth-child(7n)
-    grid-column-start: 6
-
-@media(max-width: 850px)
-  .container
-    grid-template-columns: repeat(6, 100px)
-    width: 620px
-  .item:nth-child(5n+1)
-    grid-column-start: 1
-  .item:nth-child(5n+2)
-    grid-column-start: 3
-  .item:nth-child(5n+3)
-    grid-column-start: 5
-  .item:nth-child(5n+4)
-    grid-column-start: 2
-  .item:nth-child(5n)
-    grid-column-start: 4
-
-@media(max-width: 720px)
-  .container
-    grid-template-columns: repeat(4, 100px)
-    width: 410px
-  .item:nth-child(3n+1)
-    grid-column-start: 1
-  .item:nth-child(3n+2)
-    grid-column-start: 3
-  .item:nth-child(3n)
-    grid-column-start: 2
