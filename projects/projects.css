@@ -22,7 +22,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 200px 200px 200px 300px 1fr;
+  grid-template-columns: 1fr 100px 100px 100px 100px 100px 100px 300px 1fr;
   grid-column-gap: 6px;
   grid-row-gap: 2px;
   margin-top: 150px;
@@ -32,19 +32,24 @@ body {
   .container .cell hr {
     border: 25px solid transparent; }
   .container .bigImgs {
+    grid-column: 2/span 6; }
+  .container .medImgs1 {
     grid-column: 2/span 3; }
+  .container .medImgs2 {
+    grid-column: 5/span 3; }
   .container .smlImgs1 {
-    grid-column: 2; }
+    grid-column: 2/span 2; }
   .container .smlImgs2 {
-    grid-column: 3; }
+    grid-column: 4/span 2; }
   .container .smlImgs3 {
-    grid-column: 4; }
+    grid-column: 6/span 2;
+    border: 2px solid black; }
   .container .textBox {
     grid-row: 1/span 3;
-    grid-column: 5;
+    grid-column: 8;
     padding-left: 20px; }
   .container .textBoxSml {
-    grid-column: 5;
+    grid-column: 8;
     padding-left: 20px; }
 
 h1, h2 {

@@ -1,0 +1,19 @@
+body {
+  background: #2c3e50;
+  color: pink; }
+
+.container {
+  display: grid;
+  border: 1px solid #eaeaea;
+  grid-template-columns: repeat(6, 1fr);
+  width: 850px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+
+.bookmark {
+  border: 1px solid #eaeaea; }
+  .bookmark img {
+    width: 150px; }
+
+/*# sourceMappingURL=style.css.map */

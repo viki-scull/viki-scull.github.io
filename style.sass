@@ -22,6 +22,7 @@ html
   position: fixed
   text-align: right
   z-index: 10
+  grid-column: 1 / 13
   a
     text-decoration: none
     font-size: 16pt
@@ -31,30 +32,35 @@ html
 body
   background-image:  linear-gradient(darken($duskyPurple, 10%), darken($pink, 10%), darken($teal, 10%))
   // background-image:  linear-gradient(darken($teal, 10%), darken($pink, 10%), darken($duskyPurple, 10%))
-  color: #eaeaea
+  color: $lightGrey
   padding-top: 30px
   text-align: left
+.pageTitle
+  grid-column: 1 / 13
+
 h1, h2, h3
   font-weight: 100
-  text-align: center
+  text-align: right
   color: #eaeaea
 h1
   font-family: 'Jacques Francois', serif
   line-height: 20pt
-  font-size: 36pt
+  font-size: 80pt
   padding-top: 120px
 h2
   font-family: 'Jacques Francois', serif
-  font-size: 14pt
+  font-size: 36pt
 h3
   font-family: 'Quicksand', serif
   font-size: 12pt
-  a
-    color: $lightGrey
-// .games
-//   color: desaturate(lighten($paleTeal, 15%), 50%)
-// .ar
-//   color: desaturate(lighten($skyBlue, 15%), 50%)
+h4
+  font-family: 'Quicksand', serif
+  color: $lightGrey
+  font-weight: normal
+  padding-left: 50px
+  font-size: 16pt
+a
+  color: $lightGrey
 
 .navbar
   text-align: center
@@ -73,19 +79,28 @@ h3
     border: 2px solid $lightGrey
     opacity: 1
 
+.fullWidth
+  grid-column: 1 / 13
+  // border: 1px solid white
+
+
 .sectionTitle
   font-family: 'Jacques Francois', serif
   font-size: 28pt
-  grid-column: 1 / 13
-  // border: 1px solid white
   text-align: left
-  color: $lightGrey
+  color: $duskyPurple
   padding: 100px 0px 25px 0px
+  .heading
+    padding: 0px 75px 0px 25px
+    // margin-right: 66%
+    background: $lightGrey
+    opacity: 50%
 
 .container
   display: grid
   grid-template-columns: repeat(12, 1fr)
-  grid-column-gap: 2px
+  grid-row-gap: 0px
+  grid-column-gap: 6px
   margin-bottom: 100px
   margin-left: 50px
   width: 1040px
@@ -93,37 +108,43 @@ h3
   margin-left: auto
   margin-right: auto
 
-.item
+
+.bigItem
+  grid-column: span 8
+.smlItem
   grid-column: span 4
+.tinyItem
+  grid-column: span 3
+
+.item
   overflow: hidden
-  // border: solid white 1px
-  margin-bottom: 2px
-  background: desaturate(darken($duskyPurple, 20%), 25%)
-  // &:hover
-  //   opacity: 25%
+  position: relative
 
   img
-    max-width: 100%
-    // height: auto
-    padding: 0
+    width: 100%
+
+  .overlay
+    position: absolute
+    background: darken($duskyPurple, 10%)
+    top: 0
+    bottom: 4px
+    left: 0
+    right: 0
+    width: 100%
+    opacity: 0
     &:hover
-      opacity: 25%
-  a
-    text-decoration: none
-  p
-    position: relative
-    // top: -22px
-    // background: desaturate(darken($duskyPurple, 20%), 25%)
-    font-family: 'Quicksand', serif
-    font-weight: 500
-    font-size: 14pt
-    color: $lightGrey
-    text-align: right
-    line-height: 14pt
-    padding: 0px 10px
-  .sub
-    font-family: 'Quicksand', serif
-    font-size: 10pt
+      opacity: 90%
+
+    h1, h2
+      top: 0
+      font-family: 'Quicksand', serif
+      text-align: center
+      line-height: 80%
+      color: $lightGrey
+    h1
+      font-size: 16pt
+    h2
+      font-size: 12pt
 
 
 /**** About Me ****/
@@ -131,7 +152,7 @@ h3
   margin-left: -500px
   padding-left: 500px
   grid-column: 2 / span 2
-  margin-top: 200px
+  margin-top: 150px
   text-align: left
   img
     border-radius: 100%
@@ -147,7 +168,7 @@ h3
     content: ""
     border: 2px solid $lightGrey
 .aboutMe
-  grid-column: 4 / 12
+  grid-column: 4 / 13
   padding: 50px
   margin-left: -50px
   padding-left: 100px
