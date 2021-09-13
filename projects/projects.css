@@ -31,6 +31,8 @@ body {
     width: 100%; }
   .container .cell hr {
     border: 25px solid transparent; }
+  .container .title {
+    grid-column: 3/span 6; }
   .container .bigImgs {
     grid-column: 2/span 6; }
   .container .medImgs1 {
@@ -61,6 +63,8 @@ h1, h2 {
 
 h1 {
   font-size: 16pt; }
+  h1 a {
+    color: #16a085; }
 
 h2 {
   font-size: 11pt;
