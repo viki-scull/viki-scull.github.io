@@ -1,0 +1,4 @@
+{{- $class := .Title | default "default-image-class" -}}
+
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" class="{{ $class }}">
+

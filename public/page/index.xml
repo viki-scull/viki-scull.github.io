@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on My New Hugo Site</title>
+    <link>http://localhost:1313/page/</link>
+    <description>Recent content in Pages on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/page/aboutme/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/page/aboutme/</guid>
+      <description>&lt;div class=&#34;oneThird circleOutline&#34;&gt;&#xA;  &lt;!--![alt text](https://picsum.photos/300 &#34;roundImage&#34;)--&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;I have been working in Unity for over seven years, starting as an AR and VR programmer and designer, working on amazing projects with clients such as the National Gallery, Aardman and Simple Things Music Festival.&lt;/p&gt;&#xA;&lt;p&gt;During these projects, I learnt how to make shaders and slowly transitioned into a technical artist, which is a great way of combining my art skills and programming knowledge.&lt;/p&gt;&#xA;&lt;p&gt;In my spare time, I make little video games (taking part in lots of game jams), and love drawing and creating digital art.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

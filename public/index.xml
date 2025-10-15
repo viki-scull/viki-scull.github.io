@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi I&#39;m Viki on My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Hi I&#39;m Viki on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 20:38:22 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_01/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_01/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_02/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_02/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03---copy-2/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03---copy-2/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03---copy-3/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03---copy-3/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03---copy/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03---copy/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/projects---copy/post_01/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects---copy/post_01/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/projects---copy/post_02/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects---copy/post_02/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/projects---copy/post_03/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects---copy/post_03/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/projects---copy/post_04/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects---copy/post_04/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Knights in Tight Spaces</title>
+      <link>http://localhost:1313/projects/kits/mapgeneration/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/mapgeneration/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;A procedurally generated map for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).&lt;/p&gt;&#xA;&lt;p&gt;Because each run is uniquely generated, we needed a map to be uniquely generated. Here is a brief overview of how that was achieved in Unity, using shaders and VFX Graph.&lt;/p&gt;&#xA;&lt;p&gt;If you want to generate your own landmasses, I suggest watching Sebastian Lague&amp;rsquo;s Procedural Landmass Generation series on YouTube, because that helped me A LOT&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Knights in Tight Spaces</title>
+      <link>http://localhost:1313/projects/kits/shaders/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/shaders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knights in Tight Spaces</title>
+      <link>http://localhost:1313/projects/kits/visualeffects/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/visualeffects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post 3</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>&lt;p&gt;Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&lt;/p&gt;&#xA;&lt;p&gt;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cat Fur Shader</title>
+      <link>http://localhost:1313/projects/petaverse-cats/petfur/</link>
+      <pubDate>Thu, 26 Jan 2023 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/petaverse-cats/petfur/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;Fur shader for an unreleased digital pet mobile game&lt;/p&gt;&#xA;&lt;p&gt;Using the idea of &amp;ldquo;shell fur&amp;rdquo; as a base, we needed fur on these cats to flow, to be different lengths in different areas, and to be thinner around the face and eyes. All of the cats in the game need to use the same shader, so I used textures similar to normal maps to affect the direction that the fur flows in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Petaverse</title>
+      <link>http://localhost:1313/projects---copy/petaverse-intro/</link>
+      <pubDate>Thu, 26 Jan 2023 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects---copy/petaverse-intro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>http://localhost:1313/projects/petaverse-cats/video/</link>
+      <pubDate>Thu, 26 Jan 2023 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/petaverse-cats/video/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;Pet &amp;ldquo;reveal video&amp;rdquo; for an unreleased tamagotchi type mobile game&lt;/p&gt;&#xA;&lt;p&gt;We wanted the pets to hatch, before they are finally revealed. I worked with the concept artist and 3D artist to come up with the sequence, my storyboard below is the combination of all our ideas.&lt;/p&gt;&#xA;&lt;p&gt;Then I created all of the effects in Unity, with the old particle system and special shaders on the planets. It was then recorded in engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;&#xA;&lt;p&gt;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. Anim ut duis sunt nisi. Culpa cillum sit voluptate voluptate eiusmod dolor. Enim nisi Lorem ipsum irure est excepteur voluptate eu in enim nisi. Nostrud ipsum Lorem anim sint labore consequat do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/page/aboutme/</link>
+      <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/page/aboutme/</guid>
+      <description>&lt;div class=&#34;oneThird circleOutline&#34;&gt;&#xA;  &lt;!--![alt text](https://picsum.photos/300 &#34;roundImage&#34;)--&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;I have been working in Unity for over seven years, starting as an AR and VR programmer and designer, working on amazing projects with clients such as the National Gallery, Aardman and Simple Things Music Festival.&lt;/p&gt;&#xA;&lt;p&gt;During these projects, I learnt how to make shaders and slowly transitioned into a technical artist, which is a great way of combining my art skills and programming knowledge.&lt;/p&gt;&#xA;&lt;p&gt;In my spare time, I make little video games (taking part in lots of game jams), and love drawing and creating digital art.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fix Up the City</title>
+      <link>http://localhost:1313/projects/fixupthecity/</link>
+      <pubDate>Thu, 26 Aug 2021 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/fixupthecity/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;The location based sequel to The Big Fix Up. This app uses LiDAR scanned areas of Bristol, Cardiff and San Francisco to trigger scenes to appear, which interact and bounce off objects and buildings in the real world.&lt;/p&gt;&#xA;&lt;p&gt;I worked on this project from the start, and so had a much bigger role in the development of the minigames and design of the overall app.&lt;/p&gt;&#xA;&lt;p&gt;As part of the Unity team, I worked on the AR scenes, implementing models and animations, using Unity&amp;rsquo;s Timeline Package to compose scenes and sequences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Big Fix Up</title>
+      <link>http://localhost:1313/projects/thebigfixup/</link>
+      <pubDate>Tue, 26 Jan 2021 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/thebigfixup/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;I joined Fictioneers in early 2020 and worked as a Unity Dev for the final year of production of The Big Fix Up. As part of the Unity team I helped to build the augmented mini games that make up the main interactive part of the app.&lt;/p&gt;&#xA;&lt;p&gt;As well as programming AR interactions I also created animations, shaders and other effects to help bring this app to life.&lt;/p&gt;&#xA;&lt;p&gt;It was absolutely incredible to work with such a beloved IP, as I, like so many others, grew up watching Wallace and Gromit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hidden Florence 3D</title>
+      <link>http://localhost:1313/projects/hiddenflorence/</link>
+      <pubDate>Tue, 26 Nov 2019 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/hiddenflorence/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of an ongoing research project into the San Pier Maggiore church, which once stood in Florence, we created an app based around the alterpiece, now hanging in the National Gallery.&lt;/p&gt;&#xA;&lt;p&gt;When looking at Jacopo di Cione&amp;rsquo;s painting, the app would take the user back in time, to see the church how it would have been, with the alterpiece hanging in place.&lt;/p&gt;&#xA;&lt;p&gt;I was the sole programmer on this project, which utilises AR Kit&amp;rsquo;s image recognition. And I created a shader to fade the church into view over the camera feed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aisha Devi Music Video</title>
+      <link>http://localhost:1313/projects/simplethings/</link>
+      <pubDate>Sat, 26 Oct 2019 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/simplethings/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of the Simple Things Festival, we developed a VR music for electronic artist Aïsha Devi and her track &amp;ldquo;I&amp;rsquo;m Not Always Where My Body Is&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;We placed a 3D scan of Aïsha within a surreal, otherworldly landscape, and played different stems of the track around the space. Users could wander around, watching Aïsha move and seeing particle systems react to the different sounds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun and interesting project to work on, working out how to create particle systems that would grow and change based on the volume of the different stems. And working with volumetric shaders to take the 3D scan of Aïsha and make her look awesome.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pirate Mini Games</title>
+      <link>http://localhost:1313/projects/asaro/</link>
+      <pubDate>Fri, 26 Jul 2019 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/asaro/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;We were comissioned to make a series of pirate themed mini games for an adventure holiday company.&lt;/p&gt;&#xA;&lt;p&gt;With another programmer, I helped design several little games that used a shooting mechanic inlcuding a semaphore puzzle, steady wire game and another where a water pistol cleaned off a dirty map. We had a special phone holder created with a prop pistol, so that the players were physically holding a little gun when shooting in game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crack Magazine x Aphex Twin</title>
+      <link>http://localhost:1313/projects/crackmagazine/</link>
+      <pubDate>Mon, 26 Nov 2018 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/crackmagazine/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;To mark a exclusive interview between Crack Magazine and electronic music artist Aphex Twin, we made an app to bring his weird, unique visual style to life.&lt;/p&gt;&#xA;&lt;p&gt;Across the ten page spread, art work created by Aphex Twin&amp;rsquo;s visual partner Weird Core, could be scanned and distort and warp.&lt;/p&gt;&#xA;&lt;p&gt;As well as working on shaders for this app, I also created a Facebook Filter to compliment the app.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://zubr.co/case-study/aphex-twin-ar-experience/&#34;&gt;View the project on Zubr.co&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Window to the Past</title>
+      <link>http://localhost:1313/projects/bristololdvic/</link>
+      <pubDate>Mon, 26 Nov 2018 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/bristololdvic/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;To celebrate the Bristol Old Vic&amp;rsquo;s 250th birthday, the theatre completely redeveloped their foyer and we created an app to show how the space used to look at various points through time.&lt;/p&gt;&#xA;&lt;p&gt;Users could walk through portals in the foyer and enter pre-rendered domes and find story bites and anecdotes from the theatre&amp;rsquo;s past.&lt;/p&gt;&#xA;&lt;p&gt;I was the lead programmer on this project, and developed the AR portal journey to transport the user through time. I also learnt a lot about AR user experience when placing an app in an exisiting location, and how much you have to account for user error in apps like this.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Saddleback at Rouleur Classic</title>
+      <link>http://localhost:1313/projects/saddleback/</link>
+      <pubDate>Fri, 26 Oct 2018 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/saddleback/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;We worked with luxury cycling supplier Saddleback, using AR to showcase some of their newest tyres and accessories at the Rouleur expo in London.&lt;/p&gt;&#xA;&lt;p&gt;The app could view the products on display and show information labels around them.&lt;/p&gt;&#xA;&lt;p&gt;At the back of the room we created AR windows to show a glimpse into the Saddleback workshops. Moving backwards and forwards would transition between different 180 degree videos.&lt;/p&gt;&#xA;&lt;p&gt;On this project, I was the lead programmer. I also designed and created the window video experiences, I made the animated UI around the cycling paraphnalia. And I made shaders to add an extra layer to the experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects---copy/post_05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects---copy/post_05/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

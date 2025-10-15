@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+
+<div class="fullWidth">
+   <h1>{{ .Title }}</h1>
+</div>
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+
+{{ end }}

@@ -1,0 +1,15 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $figClass := .Get "figclass" | default "default-image-class" -}}
+{{- $imgClass := .Get "class" | default "default-image-class" -}}
+{{- $caption := .Get "caption" | default "" -}}
+
+
+<div class="{{ $figClass }}">
+    <figure>
+      <img src="{{ $src | safeURL }}" alt="{{ $alt }}" class="{{ $imgClass }}">
+      {{- if $caption }}
+        <figcaption>{{ $alt }}</figcaption>
+      {{- end }}
+    </figure>
+</div>

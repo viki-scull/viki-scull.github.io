@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personals on My New Hugo Site</title>
+    <link>http://localhost:1313/personal/</link>
+    <description>Recent content in Personals on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 20:38:22 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_01/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_01/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_02/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_02/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03---copy-2/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03---copy-2/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03---copy-3/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03---copy-3/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03---copy/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03---copy/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/personal/post_03/</link>
+      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/personal/post_03/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

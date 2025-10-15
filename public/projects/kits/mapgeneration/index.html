@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Knights in Tight Spaces | My New Hugo Site</title>
+
+
+
+<link rel="stylesheet" href="/css/main.css"/>
+
+<script src="https://kit.fontawesome.com/aa4928ad39.js" crossorigin="anonymous"></script>
+
+<meta charset="UTF-8">
+
+</head>
+<body>
+  <header>
+    
+
+  <nav>
+      <a href="/">Home</a>
+      <a href="/page/aboutme/">About Me</a>
+  </nav>
+
+
+  </header>
+  <main>
+    
+
+
+<div class="portfolioPaddingSmall"></div>
+<div class="fullWidth portfolio">
+  <h2><span class="boldSpan">Knights in Tight Spaces</span> // Procedual Map Generation</h2>
+</div>
+<div class="oneThird infoBox">
+<p> Created at Ground Shatter
+<p> Made in Unity
+
+  
+  
+<p> <time datetime="2025-03-26T20:38:22&#43;09:00">March 2025</time>
+  </div>
+
+  <div class="twoThirds portfolio">
+  <p>A procedurally generated map for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).</p>
+<p>Because each run is uniquely generated, we needed a map to be uniquely generated. Here is a brief overview of how that was achieved in Unity, using shaders and VFX Graph.</p>
+<p>If you want to generate your own landmasses, I suggest watching Sebastian Lague&rsquo;s Procedural Landmass Generation series on YouTube, because that helped me A LOT</p>
+
+</div>
+
+<div class="portfolioPaddingSmall">
+  
+</div>
+
+<div class="fullWidth">
+  <img src="../imgs/01.png" alt="alt" class="portfolioImg">
+</div>
+
+<div class="fullWidth">
+  <img src="../imgs/02.png" alt="alt" class="portfolioImg">
+</div>
+
+<div class="twoThirds">
+  <img src="../imgs/03.png" alt="alt" class="portfolioImg">
+</div>
+
+<div class="oneThird">
+  <p>I used a generated cloud island texture, with step nodes to create the shape of the land.</p>
+<p>The interactive map is a whole lot of cells, hidden underneath the visual map and within the code I could use this texture to dictate which cells were land and water</p>
+
+</div>
+
+<div class="oneThird">
+  <img src="../imgs/04.png" alt="alt" class="portfolioImg">
+</div>
+
+<div class="oneThird">
+  <p>The trees and villages are made with VFX graph. I found random locations on the map and drew little clusters of dots in RGB channels of a texture.</p>
+<p>This was used as a mask within VFX graph to say what sprites should spawn where.</p>
+
+</div>
+
+<!-->
+<div class="twoThirds">
+  <img src="../imgs/05.png" alt="alt" class="portfolioImg">
+</div>
+
+<div class="oneThird">
+  I sampled the texture and moved it slightly in four directions, getting the difference between them all for the outline.
+</div>
+
+<div class="twoThirds">
+  <img src="../imgs/06.png" alt="alt" class="portfolioImg">
+</div>
+
+<div class="oneThird">
+  The dotted lines are LineRenderers that follow a group of cells under the map, scaled up. They have some random jiggle on them to make them interesting and of course they use the same cloud texture as a mask to hide them under the water
+</div>
+
+
+
+
+  
+
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

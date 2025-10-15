@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on My New Hugo Site</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Aug 2021 20:38:22 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix Up the City</title>
+      <link>http://localhost:1313/projects/fixupthecity/</link>
+      <pubDate>Thu, 26 Aug 2021 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/fixupthecity/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;The location based sequel to The Big Fix Up. This app uses LiDAR scanned areas of Bristol, Cardiff and San Francisco to trigger scenes to appear, which interact and bounce off objects and buildings in the real world.&lt;/p&gt;&#xA;&lt;p&gt;I worked on this project from the start, and so had a much bigger role in the development of the minigames and design of the overall app.&lt;/p&gt;&#xA;&lt;p&gt;As part of the Unity team, I worked on the AR scenes, implementing models and animations, using Unity&amp;rsquo;s Timeline Package to compose scenes and sequences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Big Fix Up</title>
+      <link>http://localhost:1313/projects/thebigfixup/</link>
+      <pubDate>Tue, 26 Jan 2021 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/thebigfixup/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;I joined Fictioneers in early 2020 and worked as a Unity Dev for the final year of production of The Big Fix Up. As part of the Unity team I helped to build the augmented mini games that make up the main interactive part of the app.&lt;/p&gt;&#xA;&lt;p&gt;As well as programming AR interactions I also created animations, shaders and other effects to help bring this app to life.&lt;/p&gt;&#xA;&lt;p&gt;It was absolutely incredible to work with such a beloved IP, as I, like so many others, grew up watching Wallace and Gromit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hidden Florence 3D</title>
+      <link>http://localhost:1313/projects/hiddenflorence/</link>
+      <pubDate>Tue, 26 Nov 2019 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/hiddenflorence/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of an ongoing research project into the San Pier Maggiore church, which once stood in Florence, we created an app based around the alterpiece, now hanging in the National Gallery.&lt;/p&gt;&#xA;&lt;p&gt;When looking at Jacopo di Cione&amp;rsquo;s painting, the app would take the user back in time, to see the church how it would have been, with the alterpiece hanging in place.&lt;/p&gt;&#xA;&lt;p&gt;I was the sole programmer on this project, which utilises AR Kit&amp;rsquo;s image recognition. And I created a shader to fade the church into view over the camera feed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aisha Devi Music Video</title>
+      <link>http://localhost:1313/projects/simplethings/</link>
+      <pubDate>Sat, 26 Oct 2019 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/simplethings/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of the Simple Things Festival, we developed a VR music for electronic artist Aïsha Devi and her track &amp;ldquo;I&amp;rsquo;m Not Always Where My Body Is&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;We placed a 3D scan of Aïsha within a surreal, otherworldly landscape, and played different stems of the track around the space. Users could wander around, watching Aïsha move and seeing particle systems react to the different sounds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun and interesting project to work on, working out how to create particle systems that would grow and change based on the volume of the different stems. And working with volumetric shaders to take the 3D scan of Aïsha and make her look awesome.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pirate Mini Games</title>
+      <link>http://localhost:1313/projects/asaro/</link>
+      <pubDate>Fri, 26 Jul 2019 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/asaro/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;We were comissioned to make a series of pirate themed mini games for an adventure holiday company.&lt;/p&gt;&#xA;&lt;p&gt;With another programmer, I helped design several little games that used a shooting mechanic inlcuding a semaphore puzzle, steady wire game and another where a water pistol cleaned off a dirty map. We had a special phone holder created with a prop pistol, so that the players were physically holding a little gun when shooting in game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crack Magazine x Aphex Twin</title>
+      <link>http://localhost:1313/projects/crackmagazine/</link>
+      <pubDate>Mon, 26 Nov 2018 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/crackmagazine/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;To mark a exclusive interview between Crack Magazine and electronic music artist Aphex Twin, we made an app to bring his weird, unique visual style to life.&lt;/p&gt;&#xA;&lt;p&gt;Across the ten page spread, art work created by Aphex Twin&amp;rsquo;s visual partner Weird Core, could be scanned and distort and warp.&lt;/p&gt;&#xA;&lt;p&gt;As well as working on shaders for this app, I also created a Facebook Filter to compliment the app.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://zubr.co/case-study/aphex-twin-ar-experience/&#34;&gt;View the project on Zubr.co&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Window to the Past</title>
+      <link>http://localhost:1313/projects/bristololdvic/</link>
+      <pubDate>Mon, 26 Nov 2018 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/bristololdvic/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;To celebrate the Bristol Old Vic&amp;rsquo;s 250th birthday, the theatre completely redeveloped their foyer and we created an app to show how the space used to look at various points through time.&lt;/p&gt;&#xA;&lt;p&gt;Users could walk through portals in the foyer and enter pre-rendered domes and find story bites and anecdotes from the theatre&amp;rsquo;s past.&lt;/p&gt;&#xA;&lt;p&gt;I was the lead programmer on this project, and developed the AR portal journey to transport the user through time. I also learnt a lot about AR user experience when placing an app in an exisiting location, and how much you have to account for user error in apps like this.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Saddleback at Rouleur Classic</title>
+      <link>http://localhost:1313/projects/saddleback/</link>
+      <pubDate>Fri, 26 Oct 2018 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/saddleback/</guid>
+      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;We worked with luxury cycling supplier Saddleback, using AR to showcase some of their newest tyres and accessories at the Rouleur expo in London.&lt;/p&gt;&#xA;&lt;p&gt;The app could view the products on display and show information labels around them.&lt;/p&gt;&#xA;&lt;p&gt;At the back of the room we created AR windows to show a glimpse into the Saddleback workshops. Moving backwards and forwards would transition between different 180 degree videos.&lt;/p&gt;&#xA;&lt;p&gt;On this project, I was the lead programmer. I also designed and created the window video experiences, I made the animated UI around the cycling paraphnalia. And I made shaders to add an extra layer to the experience.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

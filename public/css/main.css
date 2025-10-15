@@ -1,0 +1,358 @@
+
+/**@import url("https://fonts.googleapis.com/css?family=Jacques+Francois|Open+Sans|Quicksand:400,700");
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@font-face {
+    font-family: 'justcosmicregular';
+    src: url('/fonts/just_cosmic-webfont.woff2') format('woff2'),
+         url('/fonts/just_cosmic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body {
+	background-color: #272B32 ;
+	color: #E4E4E4 ;
+	margin: 1rem;
+	font-family: "Quicksand", sans-serif;
+    font-size: 11pt;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+footer {
+
+  margin-top: 1rem;
+}
+
+a {
+  color: #e6eafb;
+  text-decoration: none;
+}
+
+h1 {
+	font-family: "justcosmicregular", serif;
+	font-size: 80pt;
+	text-align: right;
+	font-weight: normal;
+	line-height: 20pt;
+	padding-top: 120px;
+}
+
+h2 {
+	font-family: "justcosmicregular", serif;
+	font-weight: normal;
+	font-size: 36pt;
+}
+
+h3 {
+	font-family: "justcosmicregular", serif;
+	font-weight: normal;
+	font-size: 30pt;
+	text-align: left;
+	line-height: 10pt;
+}
+
+
+main {
+  display: grid;
+  column-gap: 35px;
+  row-gap: 10px;
+  padding: 8px;
+  margin-bottom: 100px;
+  max-width: 1080px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/*
+@media (min-width: 600px) {
+	main { 
+		grid-template-columns: repeat(8, 1fr);
+		outline: 1px dashed green;
+	}
+}
+
+@media (min-width: 900px) {
+	main { 
+		grid-template-columns: repeat(12, 1fr);
+		outline: 1px dashed purple;
+	}
+}*/
+
+
+.introHeader {
+	text-align: right;
+	padding-bottom: 50px;
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+/**** 
+	Nav Bar
+		****/
+
+nav {
+	width: 100%;
+	margin-top: -20px;
+	margin-left: -20px;
+	padding: 15px;
+	position: fixed;
+	text-align: right;
+	z-index: 10;
+	background-color: #272B32;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16pt;
+    padding: 0px 35px; 
+}
+
+
+.bigItem {
+	grid-column: span 4;
+	height: auto;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	overflow: hidden;
+	position: relative;
+
+}
+
+
+
+.medItem {
+	grid-column: span 3;
+	height: auto;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	overflow: hidden;
+	padding: 4px;
+}
+
+
+.item .imgContainer
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: green;
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+	opacity: 100%;
+	vertical-align: bottom;
+}
+
+.item .caption{
+	position: relative;
+	top: -5px;
+	width: 100%;
+	transition: all 0.5s ease-in-out;
+	right: 25px;
+}
+
+.item:hover img {
+	opacity: 10%;
+	transition: all 0.5s ease-in-out;
+}
+
+.item:hover .caption{
+	top: -150px;
+	color: white;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+
+.item h4 {
+	font-weight: 400;
+	font-size: 14pt;
+	text-align: right;
+	line-height: 12pt;
+}
+
+.item h5 {
+	font-weight: 300;
+	font-size: 12pt;
+	margin-top: -11pt;
+	text-align: right;
+}
+
+.item:hover h4{
+	font-weight: 600;
+	transition: all 0.5s ease-in-out;
+}
+
+.item:hover h5{
+	font-weight: 600;
+	transition: all 0.5s ease-in-out;
+}
+
+.item a {
+}
+
+
+.aboutIcon{
+	height: 50px;
+}
+
+ul li {
+	line-height: 120%;
+}
+
+ul li li {
+  list-style-type: none;
+  padding-inline-start: 20px;
+}
+
+ul li ul {
+	padding: 0px;
+}
+
+
+
+
+/******
+Grid Columns
+	border: solid 1px black;
+******/
+
+.fullWidth { grid-column: 1/13; }
+
+.halfWidth{	grid-column: span 6; }
+
+.twoThirds{	grid-column: span 8; }
+
+.oneThird{ grid-column: span 4; }
+
+.oneQuarter{ grid-column: span 3; }
+
+.threeQuarter{ grid-column: span 9; }
+
+.five{ grid-column: span 5; }
+
+.seven{ grid-column: span 7; }
+
+.smallWidth{ grid-column: span 2; }
+
+.tinyWidth{ grid-column: span 2; 
+	outline: 1px dashed cyan;
+}
+
+
+
+
+
+
+.portfolioPaddingSmall{
+  grid-column: 1/13; 
+  height: 50px;
+}
+
+.figure{
+	width: 100%;
+}
+
+.portfolioImg{
+	width: 100%;
+}
+
+.portfolio a {
+	color: #42384b;
+	background-color: #e6eafb;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 8px; 
+	margin-top: 20px;
+}
+
+.portfolio a:hover {
+	background-color: #42384b;
+	color: #e6eafb;
+}
+
+
+
+.boldSpan{
+	font-weight: bold;
+}
+
+.infoBox{
+	padding-right: 25pt;
+	border-right: 1px #E4E4E4 solid;
+	font-weight: bold;
+	text-align: right;
+}
+
+/******
+About me page
+******/
+
+.circleOutline {
+margin-top: 0px;
+  width: 250px;
+  height: 250px;
+  background-image: url('/images/IMG_6612.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circleOutline::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #E4E4E4;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+
+.aboutIcons{
+	font-size: 24pt;
+    text-align: right;
+	transition: all 0.3s ease-in-out;
+	padding-right: 10px;
+}
+
+
+.aboutIcons:hover{
+	opacity: 0.5;	
+}
+
+
+/******
+Resizing for mobile
+******/
+
+@media (max-width: 900px) {
+	.bigItem { 
+		grid-column: span 6;
+	}
+}
+
+@media (max-width: 600px) {
+	.bigItem, .halfWidth, .twoThirds, .oneThird, .oneQuarter, .threeQuarter, .five, .seven, .smallWidth { 
+		grid-column: span 12;
+	}
+}

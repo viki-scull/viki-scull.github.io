@@ -1,0 +1,37 @@
+
+
+{{ define "main" }}
+
+<!--<img class="bigImg" src="{{ .Params.header_image }}">-->
+<div class="portfolioPaddingSmall"></div>
+<div class="fullWidth portfolio">
+  <h2><span class="boldSpan">{{ .Title }}</span> // {{ .Params.subtitle }}</h2>
+</div>
+<div class="oneThird infoBox">
+<p> {{ .Params.company }}
+<p> {{ .Params.technology }}
+
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format "January 2006" }}
+<p> <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  </div>
+
+  {{ .Content }}
+
+
+
+  {{ range .Pages }}
+    <div class="halfWidth">
+        <a href="{{ .RelPermalink }}">
+            <h3>{{ .LinkTitle }}</h2>
+            <img src="{{ .Params.header_image }}" style="width: 100%">
+        </a>
+    </div>
+  {{ end }}
+
+
+
+
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+{{ end }}

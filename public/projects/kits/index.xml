@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knights in Tight Spaces on My New Hugo Site</title>
+    <link>http://localhost:1313/projects/kits/</link>
+    <description>Recent content in Knights in Tight Spaces on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Mar 2025 20:38:22 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/kits/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knights in Tight Spaces</title>
+      <link>http://localhost:1313/projects/kits/mapgeneration/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/mapgeneration/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;A procedurally generated map for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).&lt;/p&gt;&#xA;&lt;p&gt;Because each run is uniquely generated, we needed a map to be uniquely generated. Here is a brief overview of how that was achieved in Unity, using shaders and VFX Graph.&lt;/p&gt;&#xA;&lt;p&gt;If you want to generate your own landmasses, I suggest watching Sebastian Lague&amp;rsquo;s Procedural Landmass Generation series on YouTube, because that helped me A LOT&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Knights in Tight Spaces</title>
+      <link>http://localhost:1313/projects/kits/shaders/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/shaders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knights in Tight Spaces</title>
+      <link>http://localhost:1313/projects/kits/visualeffects/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/visualeffects/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

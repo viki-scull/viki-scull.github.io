@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\content",
+    "\\content\\projects",
+    "\\content\\projects\\petaverse-cats",
+    "\\themes",
+    "\\themes\\my-custom-theme",
+    "\\themes\\my-custom-theme\\archetypes",
+    "\\themes\\my-custom-theme\\layouts",
+    "\\themes\\my-custom-theme\\layouts\\about",
+    "\\themes\\my-custom-theme\\layouts\\projects",
+    "\\themes\\my-custom-theme\\static"
+  ],
+  "PreviewInSolutionExplorer": false
+}

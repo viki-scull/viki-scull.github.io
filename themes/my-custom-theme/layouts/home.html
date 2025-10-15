@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+   <div class="oneQuarter"></div>
+   <div class="threeQuarter introHeader">
+
+  {{ .Content }}
+
+  </div>
+
+        
+{{ range (site.GetPage "projects").Pages }}
+
+
+    <div class="bigItem item">
+        <a href="{{ .RelPermalink }}">
+        <div class="imgContainer" style="background-color:{{ .Params.bgColour }}">
+        <img class="bigImg" src="{{ .Params.header_image }}">
+        </div>
+        <div class="caption">
+        <h4>{{ .LinkTitle }}</h4>
+        <h5>{{ .Params.subtitle }}</h5>
+        </div>
+        </a>
+        </div>
+        {{ end }}
+<!--
+<div class="fullWidth">
+    Personal Projects, Game Jams and Experiments
+</div>
+
+{{ range (site.GetPage "personal").Pages }}
+    <div class="medItem item">
+        <a href="{{ .RelPermalink }}">
+        <div class="imgContainer">
+        <img class="bigImg" src="{{ .Params.header_image }}">
+        </div>
+        <div class="caption">
+        <h2>{{ .LinkTitle }}</h2>
+        <h3>{{ .Params.subtitle }}</h3>
+        </div>
+        </a>
+    </div>
+{{end}}
+-->
+
+{{ end }}
