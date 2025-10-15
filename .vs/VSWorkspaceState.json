@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content",
-    "\\content\\projects",
-    "\\content\\projects\\petaverse-cats",
+    "\\.github",
+    "\\.github\\workflows",
     "\\themes",
     "\\themes\\my-custom-theme",
     "\\themes\\my-custom-theme\\archetypes",
@@ -12,5 +11,6 @@
     "\\themes\\my-custom-theme\\layouts\\projects",
     "\\themes\\my-custom-theme\\static"
   ],
+  "SelectedNode": "\\hugo.toml",
   "PreviewInSolutionExplorer": false
 }
