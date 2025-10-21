@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Knights in Tight Spaces on My New Hugo Site</title>
+    <title>Knights in Tight Spaces on Viki Scull Portfolio</title>
     <link>http://localhost:1313/projects/kits/</link>
-    <description>Recent content in Knights in Tight Spaces on My New Hugo Site</description>
+    <description>Recent content in Knights in Tight Spaces on Viki Scull Portfolio</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-GB</language>
     <lastBuildDate>Wed, 26 Mar 2025 20:38:22 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/kits/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Knights in Tight Spaces</title>
+      <title>Magic Weapons</title>
+      <link>http://localhost:1313/projects/kits/magicweapons/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/magicweapons/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;Magic Weapons for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).&lt;/p&gt;&#xA;&lt;p&gt;Certain weapons in the game have magic effects on them, and we wanted to show that with a particle system in a way that we could add the effect to more weapons and shields, if and when we needed to.&lt;/p&gt;&#xA;&lt;p&gt;The magic VFX was made in VFX graph, and all of them use the same components which can be turned on and off and have their colours changed to suit the type of magic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Maps</title>
       <link>http://localhost:1313/projects/kits/mapgeneration/</link>
       <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/kits/mapgeneration/</guid>
       <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;A procedurally generated map for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).&lt;/p&gt;&#xA;&lt;p&gt;Because each run is uniquely generated, we needed a map to be uniquely generated. Here is a brief overview of how that was achieved in Unity, using shaders and VFX Graph.&lt;/p&gt;&#xA;&lt;p&gt;If you want to generate your own landmasses, I suggest watching Sebastian Lague&amp;rsquo;s Procedural Landmass Generation series on YouTube, because that helped me A LOT&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Knights in Tight Spaces</title>
-      <link>http://localhost:1313/projects/kits/shaders/</link>
-      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects/kits/shaders/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Knights in Tight Spaces</title>
-      <link>http://localhost:1313/projects/kits/visualeffects/</link>
-      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects/kits/visualeffects/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

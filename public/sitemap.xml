@@ -41,16 +41,13 @@
     <loc>http://localhost:1313/projects/kits/</loc>
     <lastmod>2025-03-26T20:38:22+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/kits/mapgeneration/</loc>
-    <lastmod>2025-03-26T20:38:22+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/kits/shaders/</loc>
-    <lastmod>2025-03-26T20:38:22+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/kits/visualeffects/</loc>
+    <loc>http://localhost:1313/projects/kits/magicweapons/</loc>
     <lastmod>2025-03-26T20:38:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2025-03-26T20:38:22+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/kits/mapgeneration/</loc>
     <lastmod>2025-03-26T20:38:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/blue/</loc>
@@ -71,16 +68,16 @@
     <loc>http://localhost:1313/posts/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/petaverse-cats/petfur/</loc>
+    <loc>http://localhost:1313/projects/petaversecats/petfur/</loc>
     <lastmod>2023-01-26T20:38:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects---copy/petaverse-intro/</loc>
     <lastmod>2023-01-26T20:38:22+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/petaverse-cats/</loc>
+    <loc>http://localhost:1313/projects/petaversecats/</loc>
     <lastmod>2023-01-26T20:38:22+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/petaverse-cats/video/</loc>
+    <loc>http://localhost:1313/projects/petaversecats/video/</loc>
     <lastmod>2023-01-26T20:38:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-1/</loc>

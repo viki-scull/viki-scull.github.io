@@ -5,7 +5,6 @@ title = 'Pirate Mini Games'
 company = 'Created while working at Zubr'
 subtitle = 'AR Mobile App'
 technology = 'Made in Unity, with AR Kit'
-header_image = '/images/asaro.png'
 bgColour = '#B37A23'
 textColour = '#2d3436'
 
@@ -23,15 +22,15 @@ As well as programming and game design for this project, I created small visual 
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/01.png "portfolioImg")
+![alt](01.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/02.png "portfolioImg")
+![alt](02.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/03.png "portfolioImg")
+![alt](03.png "portfolioImg")
 {{< /block >}}
 
 

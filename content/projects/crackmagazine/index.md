@@ -5,7 +5,6 @@ title = 'Crack Magazine x Aphex Twin'
 company = 'Created for Crack Magazine while working at Zubr'
 subtitle = 'AR Experience'
 technology = 'Made in Unity, with AR Kit, and Facebook Filter created in Spark AR'
-header_image = '/images/at.jpg'
 bgColour = '#00b894'
 textColour = '#2d3436'
 
@@ -28,11 +27,11 @@ As well as working on shaders for this app, I also created a Facebook Filter to 
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/01.jpg "portfolioImg")
+![alt](01.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/02.jpg "portfolioImg")
+![alt](02.jpg "portfolioImg")
 {{< /block >}}
 
 <!-->
@@ -42,7 +41,7 @@ As well as working on shaders for this app, I also created a Facebook Filter to 
 {{< /block >}}
 
 {{< block class="oneThird" >}}
-![alt](imgs/04.jpg "portfolioImg")
+![alt](04.jpg "portfolioImg")
 {{< /block >}}
 
 <!-->
@@ -51,7 +50,7 @@ As well as working on shaders for this app, I also created a Facebook Filter to 
 
 
 {{< block class="twoThirds" >}}
-![alt](imgs/03.jpg "portfolioImg")
+![alt](03.jpg "portfolioImg")
 {{< /block >}}
 
 

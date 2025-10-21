@@ -1,15 +1,16 @@
 +++
 date = '2025-03-26T20:38:22+09:00'
 draft = false
-title = 'Knights in Tight Spaces'
+title = 'World Maps'
 company = 'Created at Ground Shatter'
 subtitle = 'Procedual Map Generation'
 technology = 'Made in Unity'
-header_image = '/images/pic1.jpg'
+header_image = 'kitsmap.png'
 bgColour = '#00b894'
 textColour = '#2d3436'
 
 +++
+
 
 {{< block class="twoThirds portfolio" >}}
 A procedurally generated map for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).
@@ -22,16 +23,16 @@ If you want to generate your own landmasses, I suggest watching Sebastian Lague'
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 
 {{< block class="fullWidth" >}}
-![alt](../imgs/01.png "portfolioImg")
+![alt](01.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="fullWidth" >}}
-![alt](../imgs/02.png "portfolioImg")
+![alt](02.png "portfolioImg")
 {{< /block >}}
 
 
 {{< block class="twoThirds" >}}
-![alt](../imgs/03.png "portfolioImg")
+![alt](03.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneThird" >}}
@@ -43,7 +44,7 @@ The interactive map is a whole lot of cells, hidden underneath the visual map an
 
 
 {{< block class="oneThird" >}}
-![alt](../imgs/04.png "portfolioImg")
+![alt](04.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneThird" >}}
@@ -55,7 +56,7 @@ This was used as a mask within VFX graph to say what sprites should spawn where.
 <!-->
 
 {{< block class="twoThirds" >}}
-![alt](../imgs/05.png "portfolioImg")
+![alt](05.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneThird" >}}
@@ -63,7 +64,7 @@ I sampled the texture and moved it slightly in four directions, getting the diff
 {{< /block >}}
 
 {{< block class="twoThirds" >}}
-![alt](../imgs/06.png "portfolioImg")
+![alt](06.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneThird" >}}

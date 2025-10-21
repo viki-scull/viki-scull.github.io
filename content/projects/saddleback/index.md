@@ -5,13 +5,12 @@ title = 'Saddleback at Rouleur Classic'
 company = 'Created for Saddleback while working at Zubr'
 subtitle = 'AR Experience'
 technology = 'Made in Unity, with AR Kit'
-header_image = '/images/sbr.jpg'
 bgColour = '#5880E2'
 textColour = '#2d3436'
 
 +++
 
-{{< block class="twoThirds" >}}
+{{< block class="twoThirds portfolio" >}}
 
 We worked with luxury cycling supplier Saddleback, using AR to showcase some of their newest tyres and accessories at the Rouleur expo in London.
 
@@ -29,17 +28,17 @@ On this project, I was the lead programmer. I also designed and created the wind
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/01.png "portfolioImg")
+![alt](01.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/02.jpg "portfolioImg")
+![alt](02.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/03.jpg "portfolioImg")
+![alt](03.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/04.jpg "portfolioImg")
+![alt](04.jpg "portfolioImg")
 {{< /block >}}

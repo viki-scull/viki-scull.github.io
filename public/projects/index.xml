@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on My New Hugo Site</title>
+    <title>Projects on Viki Scull Portfolio</title>
     <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on My New Hugo Site</description>
+    <description>Recent content in Projects on Viki Scull Portfolio</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-GB</language>
     <lastBuildDate>Thu, 26 Aug 2021 20:38:22 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -27,14 +27,14 @@
       <link>http://localhost:1313/projects/hiddenflorence/</link>
       <pubDate>Tue, 26 Nov 2019 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/hiddenflorence/</guid>
-      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of an ongoing research project into the San Pier Maggiore church, which once stood in Florence, we created an app based around the alterpiece, now hanging in the National Gallery.&lt;/p&gt;&#xA;&lt;p&gt;When looking at Jacopo di Cione&amp;rsquo;s painting, the app would take the user back in time, to see the church how it would have been, with the alterpiece hanging in place.&lt;/p&gt;&#xA;&lt;p&gt;I was the sole programmer on this project, which utilises AR Kit&amp;rsquo;s image recognition. And I created a shader to fade the church into view over the camera feed.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;As part of an ongoing research project into the San Pier Maggiore church, which once stood in Florence, we created an app based around the alterpiece, now hanging in the National Gallery.&lt;/p&gt;&#xA;&lt;p&gt;When looking at Jacopo di Cione&amp;rsquo;s painting, the app would take the user back in time, to see the church how it would have been, with the alterpiece hanging in place.&lt;/p&gt;&#xA;&lt;p&gt;I was the sole programmer on this project, which utilises AR Kit&amp;rsquo;s image recognition. And I created a shader to fade the church into view over the camera feed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aisha Devi Music Video</title>
       <link>http://localhost:1313/projects/simplethings/</link>
       <pubDate>Sat, 26 Oct 2019 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/simplethings/</guid>
-      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of the Simple Things Festival, we developed a VR music for electronic artist Aïsha Devi and her track &amp;ldquo;I&amp;rsquo;m Not Always Where My Body Is&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;We placed a 3D scan of Aïsha within a surreal, otherworldly landscape, and played different stems of the track around the space. Users could wander around, watching Aïsha move and seeing particle systems react to the different sounds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun and interesting project to work on, working out how to create particle systems that would grow and change based on the volume of the different stems. And working with volumetric shaders to take the 3D scan of Aïsha and make her look awesome.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;As part of the Simple Things Festival, we developed a VR music for electronic artist Aïsha Devi and her track &amp;ldquo;I&amp;rsquo;m Not Always Where My Body Is&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;We placed a 3D scan of Aïsha within a surreal, otherworldly landscape, and played different stems of the track around the space. Users could wander around, watching Aïsha move and seeing particle systems react to the different sounds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun and interesting project to work on, working out how to create particle systems that would grow and change based on the volume of the different stems. And working with volumetric shaders to take the 3D scan of Aïsha and make her look awesome.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pirate Mini Games</title>
@@ -62,7 +62,7 @@
       <link>http://localhost:1313/projects/saddleback/</link>
       <pubDate>Fri, 26 Oct 2018 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/saddleback/</guid>
-      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;We worked with luxury cycling supplier Saddleback, using AR to showcase some of their newest tyres and accessories at the Rouleur expo in London.&lt;/p&gt;&#xA;&lt;p&gt;The app could view the products on display and show information labels around them.&lt;/p&gt;&#xA;&lt;p&gt;At the back of the room we created AR windows to show a glimpse into the Saddleback workshops. Moving backwards and forwards would transition between different 180 degree videos.&lt;/p&gt;&#xA;&lt;p&gt;On this project, I was the lead programmer. I also designed and created the window video experiences, I made the animated UI around the cycling paraphnalia. And I made shaders to add an extra layer to the experience.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;We worked with luxury cycling supplier Saddleback, using AR to showcase some of their newest tyres and accessories at the Rouleur expo in London.&lt;/p&gt;&#xA;&lt;p&gt;The app could view the products on display and show information labels around them.&lt;/p&gt;&#xA;&lt;p&gt;At the back of the room we created AR windows to show a glimpse into the Saddleback workshops. Moving backwards and forwards would transition between different 180 degree videos.&lt;/p&gt;&#xA;&lt;p&gt;On this project, I was the lead programmer. I also designed and created the window video experiences, I made the animated UI around the cycling paraphnalia. And I made shaders to add an extra layer to the experience.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

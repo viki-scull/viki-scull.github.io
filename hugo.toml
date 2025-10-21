@@ -1,6 +1,6 @@
 baseURL = 'http://viki-scull.github.io'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'en-GB'
+title = 'Viki Scull Portfolio'
 theme = 'my-custom-theme'
 [markup.goldmark.renderer] 
 	unsafe= true

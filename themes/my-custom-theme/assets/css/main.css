@@ -76,21 +76,6 @@ main {
   grid-template-columns: repeat(12, 1fr);
 }
 
-/*
-@media (min-width: 600px) {
-	main { 
-		grid-template-columns: repeat(8, 1fr);
-		outline: 1px dashed green;
-	}
-}
-
-@media (min-width: 900px) {
-	main { 
-		grid-template-columns: repeat(12, 1fr);
-		outline: 1px dashed purple;
-	}
-}*/
-
 
 .introHeader {
 	text-align: right;
@@ -354,5 +339,9 @@ Resizing for mobile
 @media (max-width: 600px) {
 	.bigItem, .halfWidth, .twoThirds, .oneThird, .oneQuarter, .threeQuarter, .five, .seven, .smallWidth { 
 		grid-column: span 12;
+	}
+
+	h1, h3 {
+		line-height: 100%;
 	}
 }

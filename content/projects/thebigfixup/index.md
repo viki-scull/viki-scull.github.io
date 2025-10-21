@@ -5,8 +5,7 @@ title = 'The Big Fix Up'
 company = 'Created in collaboration with Aardman while working at Fictioneers'
 subtitle = 'AR Interactive Story'
 technology = 'Made in Unity, with AR Foundation'
-header_image = '/images/tbfu.png'
-bgColour = '#723F3F '
+bgColour = '#641E16 '
 textColour = '#faf5e3'
 
 +++

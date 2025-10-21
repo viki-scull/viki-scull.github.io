@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi I&#39;m Viki on My New Hugo Site</title>
+    <title>Hi I&#39;m Viki on Viki Scull Portfolio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Hi I&#39;m Viki on My New Hugo Site</description>
+    <description>Recent content in Hi I&#39;m Viki on Viki Scull Portfolio</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-GB</language>
     <lastBuildDate>Thu, 26 Jun 2025 20:38:22 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -79,25 +79,18 @@
       <description>&lt;p&gt;Hello&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Knights in Tight Spaces</title>
+      <title>Magic Weapons</title>
+      <link>http://localhost:1313/projects/kits/magicweapons/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/magicweapons/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;Magic Weapons for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).&lt;/p&gt;&#xA;&lt;p&gt;Certain weapons in the game have magic effects on them, and we wanted to show that with a particle system in a way that we could add the effect to more weapons and shields, if and when we needed to.&lt;/p&gt;&#xA;&lt;p&gt;The magic VFX was made in VFX graph, and all of them use the same components which can be turned on and off and have their colours changed to suit the type of magic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Maps</title>
       <link>http://localhost:1313/projects/kits/mapgeneration/</link>
       <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/kits/mapgeneration/</guid>
       <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;A procedurally generated map for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).&lt;/p&gt;&#xA;&lt;p&gt;Because each run is uniquely generated, we needed a map to be uniquely generated. Here is a brief overview of how that was achieved in Unity, using shaders and VFX Graph.&lt;/p&gt;&#xA;&lt;p&gt;If you want to generate your own landmasses, I suggest watching Sebastian Lague&amp;rsquo;s Procedural Landmass Generation series on YouTube, because that helped me A LOT&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Knights in Tight Spaces</title>
-      <link>http://localhost:1313/projects/kits/shaders/</link>
-      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects/kits/shaders/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Knights in Tight Spaces</title>
-      <link>http://localhost:1313/projects/kits/visualeffects/</link>
-      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects/kits/visualeffects/</guid>
-      <description></description>
     </item>
     <item>
       <title>Post 3</title>
@@ -115,9 +108,9 @@
     </item>
     <item>
       <title>Cat Fur Shader</title>
-      <link>http://localhost:1313/projects/petaverse-cats/petfur/</link>
+      <link>http://localhost:1313/projects/petaversecats/petfur/</link>
       <pubDate>Thu, 26 Jan 2023 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects/petaverse-cats/petfur/</guid>
+      <guid>http://localhost:1313/projects/petaversecats/petfur/</guid>
       <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;Fur shader for an unreleased digital pet mobile game&lt;/p&gt;&#xA;&lt;p&gt;Using the idea of &amp;ldquo;shell fur&amp;rdquo; as a base, we needed fur on these cats to flow, to be different lengths in different areas, and to be thinner around the face and eyes. All of the cats in the game need to use the same shader, so I used textures similar to normal maps to affect the direction that the fur flows in.&lt;/p&gt;</description>
     </item>
     <item>
@@ -129,9 +122,9 @@
     </item>
     <item>
       <title>Video</title>
-      <link>http://localhost:1313/projects/petaverse-cats/video/</link>
+      <link>http://localhost:1313/projects/petaversecats/video/</link>
       <pubDate>Thu, 26 Jan 2023 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects/petaverse-cats/video/</guid>
+      <guid>http://localhost:1313/projects/petaversecats/video/</guid>
       <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;Pet &amp;ldquo;reveal video&amp;rdquo; for an unreleased tamagotchi type mobile game&lt;/p&gt;&#xA;&lt;p&gt;We wanted the pets to hatch, before they are finally revealed. I worked with the concept artist and 3D artist to come up with the sequence, my storyboard below is the combination of all our ideas.&lt;/p&gt;&#xA;&lt;p&gt;Then I created all of the effects in Unity, with the old particle system and special shaders on the planets. It was then recorded in engine.&lt;/p&gt;</description>
     </item>
     <item>
@@ -167,14 +160,14 @@
       <link>http://localhost:1313/projects/hiddenflorence/</link>
       <pubDate>Tue, 26 Nov 2019 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/hiddenflorence/</guid>
-      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of an ongoing research project into the San Pier Maggiore church, which once stood in Florence, we created an app based around the alterpiece, now hanging in the National Gallery.&lt;/p&gt;&#xA;&lt;p&gt;When looking at Jacopo di Cione&amp;rsquo;s painting, the app would take the user back in time, to see the church how it would have been, with the alterpiece hanging in place.&lt;/p&gt;&#xA;&lt;p&gt;I was the sole programmer on this project, which utilises AR Kit&amp;rsquo;s image recognition. And I created a shader to fade the church into view over the camera feed.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;As part of an ongoing research project into the San Pier Maggiore church, which once stood in Florence, we created an app based around the alterpiece, now hanging in the National Gallery.&lt;/p&gt;&#xA;&lt;p&gt;When looking at Jacopo di Cione&amp;rsquo;s painting, the app would take the user back in time, to see the church how it would have been, with the alterpiece hanging in place.&lt;/p&gt;&#xA;&lt;p&gt;I was the sole programmer on this project, which utilises AR Kit&amp;rsquo;s image recognition. And I created a shader to fade the church into view over the camera feed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aisha Devi Music Video</title>
       <link>http://localhost:1313/projects/simplethings/</link>
       <pubDate>Sat, 26 Oct 2019 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/simplethings/</guid>
-      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;As part of the Simple Things Festival, we developed a VR music for electronic artist Aïsha Devi and her track &amp;ldquo;I&amp;rsquo;m Not Always Where My Body Is&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;We placed a 3D scan of Aïsha within a surreal, otherworldly landscape, and played different stems of the track around the space. Users could wander around, watching Aïsha move and seeing particle systems react to the different sounds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun and interesting project to work on, working out how to create particle systems that would grow and change based on the volume of the different stems. And working with volumetric shaders to take the 3D scan of Aïsha and make her look awesome.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;As part of the Simple Things Festival, we developed a VR music for electronic artist Aïsha Devi and her track &amp;ldquo;I&amp;rsquo;m Not Always Where My Body Is&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;We placed a 3D scan of Aïsha within a surreal, otherworldly landscape, and played different stems of the track around the space. Users could wander around, watching Aïsha move and seeing particle systems react to the different sounds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun and interesting project to work on, working out how to create particle systems that would grow and change based on the volume of the different stems. And working with volumetric shaders to take the 3D scan of Aïsha and make her look awesome.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pirate Mini Games</title>
@@ -202,7 +195,7 @@
       <link>http://localhost:1313/projects/saddleback/</link>
       <pubDate>Fri, 26 Oct 2018 20:38:22 +0900</pubDate>
       <guid>http://localhost:1313/projects/saddleback/</guid>
-      <description>&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;We worked with luxury cycling supplier Saddleback, using AR to showcase some of their newest tyres and accessories at the Rouleur expo in London.&lt;/p&gt;&#xA;&lt;p&gt;The app could view the products on display and show information labels around them.&lt;/p&gt;&#xA;&lt;p&gt;At the back of the room we created AR windows to show a glimpse into the Saddleback workshops. Moving backwards and forwards would transition between different 180 degree videos.&lt;/p&gt;&#xA;&lt;p&gt;On this project, I was the lead programmer. I also designed and created the window video experiences, I made the animated UI around the cycling paraphnalia. And I made shaders to add an extra layer to the experience.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;We worked with luxury cycling supplier Saddleback, using AR to showcase some of their newest tyres and accessories at the Rouleur expo in London.&lt;/p&gt;&#xA;&lt;p&gt;The app could view the products on display and show information labels around them.&lt;/p&gt;&#xA;&lt;p&gt;At the back of the room we created AR windows to show a glimpse into the Saddleback workshops. Moving backwards and forwards would transition between different 180 degree videos.&lt;/p&gt;&#xA;&lt;p&gt;On this project, I was the lead programmer. I also designed and created the window video experiences, I made the animated UI around the cycling paraphnalia. And I made shaders to add an extra layer to the experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

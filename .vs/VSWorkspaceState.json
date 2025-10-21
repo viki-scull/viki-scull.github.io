@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\workflows",
+    "\\content",
+    "\\content\\page",
+    "\\content\\personal",
+    "\\content\\projects",
+    "\\content\\projects\\kits",
+    "\\content\\projects\\petaversecats",
     "\\themes",
     "\\themes\\my-custom-theme",
-    "\\themes\\my-custom-theme\\archetypes",
-    "\\themes\\my-custom-theme\\layouts",
-    "\\themes\\my-custom-theme\\layouts\\about",
-    "\\themes\\my-custom-theme\\layouts\\projects",
     "\\themes\\my-custom-theme\\static"
   ],
-  "SelectedNode": "\\hugo.toml",
+  "SelectedNode": "\\content\\page\\aboutme.md",
   "PreviewInSolutionExplorer": false
 }

@@ -5,7 +5,6 @@ title = 'Fix Up the City'
 company = 'Created in collaboration with Aardman while working at Fictioneers'
 subtitle = 'Location Based AR App'
 technology = 'Made in Unity, with AR Foundation'
-header_image = '/images/futc.png'
 bgColour = '#1A3B5A'
 textColour = '#faf5e3'
 
@@ -24,19 +23,19 @@ I also worked on the VFX of this game, creating shaders, particle systems and ot
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/blb.png "portfolioImg")
+![alt](blb.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/croc.png "portfolioImg")
+![alt](croc.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/freegromit.png "portfolioImg")
+![alt](freegromit.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/rocket.png "portfolioImg")
+![alt](rocket.png "portfolioImg")
 {{< /block >}}
 
 

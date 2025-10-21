@@ -29,9 +29,8 @@ If you would like to contact me please email: viki@alittleredpanda.com
 [<i class="aboutIcons fa-brands fa-bluesky "></i>](https://bsky.app/profile/alittleredpanda.bsky.social)
 [<i class="aboutIcons fa-brands fa-itch-io"></i>](https://alittleredpanda.itch.io/)
 [<i class="aboutIcons fa-brands fa-instagram"></i>](https://instagram.com/alittleredpanda)
-[<i class="aboutIcons fa-brands fa-codepen"></i>](https://codepen.io/alittleredpanda)
 [<i class="aboutIcons fa-brands fa-artstation"></i>](https://vikijohnson.artstation.com/) 
-[<i class="aboutIcons fa-brands fa-github"></i>](https://github.com/viki-johnson)
+[<i class="aboutIcons fa-brands fa-github"></i>](https://github.com/viki-scull)
 [<i class="aboutIcons fa-brands fa-tiktok"></i>](https://www.tiktok.com/@alittleredpanda/)
 
 

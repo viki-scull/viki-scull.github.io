@@ -21,13 +21,15 @@
 
 
   {{ range .Pages }}
-    <div class="halfWidth">
-        <a href="{{ .RelPermalink }}">
-            <h3>{{ .LinkTitle }}</h2>
-            <img src="{{ .Params.header_image }}" style="width: 100%">
-        </a>
-    </div>
-  {{ end }}
+    {{partial "portfolioimg.html" (dict
+        "itemSize"  "bigItem"
+        "url" .RelPermalink
+        "bgColour" .Params.bgColour
+        "imgSrc" .Params.header_image
+        "title" .LinkTitle
+        "subtitle" .Params.subtitle 
+    )}}
+{{ end }}
 
 
 

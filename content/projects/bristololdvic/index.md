@@ -5,7 +5,6 @@ title = 'Window to the Past'
 company = 'Created for the Bristol Old Vic Theatre while working at Zubr'
 subtitle = 'AR History Tour'
 technology = 'Made in Unity, with AR Kit'
-header_image = '/images/bov.JPG'
 bgColour = '#786D68'
 textColour = '#2d3436'
 
@@ -29,23 +28,17 @@ I was the lead programmer on this project, and developed the AR portal journey t
 
 
 {{< block class="halfWidth" >}}
-![alt](imgs/01.jpg "portfolioImg")
+![alt](01.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/02.jpg "portfolioImg")
+![alt](02.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/03.jpg "portfolioImg")
+![alt](03.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/04.jpg "portfolioImg")
+![alt](04.jpg "portfolioImg")
 {{< /block >}}
-
-
-
-<!--
-{{< figure src="imgs/04.jpg" alt="Alt text" figclass="halfWidth" class="portfolioImg" caption="This is the caption" >}}
-->

@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\kits\\magicweapons.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\projects\\kits\\magicweapons.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\video.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\projects\\petaversecats\\video.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\petfur.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\projects\\petaversecats\\petfur.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\projects\\petaversecats\\_index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\fixupthecity\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\projects\\fixupthecity\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\thebigfixup\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\projects\\thebigfixup\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 214,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 126,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "petfur.md",
+              "DocumentMoniker": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\petfur.md",
+              "RelativeDocumentMoniker": "content\\projects\\petaversecats\\petfur.md",
+              "ToolTip": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\petfur.md",
+              "RelativeToolTip": "content\\projects\\petaversecats\\petfur.md",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-19T14:25:26.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "video.md",
+              "DocumentMoniker": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\video.md",
+              "RelativeDocumentMoniker": "content\\projects\\petaversecats\\video.md",
+              "ToolTip": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\video.md",
+              "RelativeToolTip": "content\\projects\\petaversecats\\video.md",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-19T14:23:23.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "magicweapons.md",
+              "DocumentMoniker": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\kits\\magicweapons.md",
+              "RelativeDocumentMoniker": "content\\projects\\kits\\magicweapons.md",
+              "ToolTip": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\kits\\magicweapons.md",
+              "RelativeToolTip": "content\\projects\\kits\\magicweapons.md",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-19T13:56:32.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.md",
+              "DocumentMoniker": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\fixupthecity\\index.md",
+              "RelativeDocumentMoniker": "content\\projects\\fixupthecity\\index.md",
+              "ToolTip": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\fixupthecity\\index.md",
+              "RelativeToolTip": "content\\projects\\fixupthecity\\index.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-19T13:25:04.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.md",
+              "DocumentMoniker": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\thebigfixup\\index.md",
+              "RelativeDocumentMoniker": "content\\projects\\thebigfixup\\index.md",
+              "ToolTip": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\thebigfixup\\index.md",
+              "RelativeToolTip": "content\\projects\\thebigfixup\\index.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-19T13:24:14.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_index.md",
+              "DocumentMoniker": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\_index.md",
+              "RelativeDocumentMoniker": "content\\projects\\petaversecats\\_index.md",
+              "ToolTip": "C:\\Users\\viki-\\OneDrive\\Documents\\GitHub\\viki-scull.github.io\\content\\projects\\petaversecats\\_index.md",
+              "RelativeToolTip": "content\\projects\\petaversecats\\_index.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-19T13:18:20.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1070,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

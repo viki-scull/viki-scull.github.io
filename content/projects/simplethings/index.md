@@ -5,13 +5,12 @@ title = 'Aisha Devi Music Video'
 company = 'Created for the Simple Things Festival, while working at Zubr'
 subtitle = 'Mixed Reality Experience'
 technology = 'Made in Unity, with AR Foundation'
-header_image = '/images/stf.png'
 bgColour = '#66587a'
 textColour = '#2d3436'
 
 +++
 
-{{< block class="twoThirds" >}}
+{{< block class="twoThirds portfolio" >}}
 As part of the Simple Things Festival, we developed a VR music for electronic artist A&#239;sha Devi and her track "I'm Not Always Where My Body Is"
 
 We placed a 3D scan of A&#239;sha within a surreal, otherworldly landscape, and played different stems of the track around the space. Users could wander around, watching A&#239;sha move and seeing particle systems react to the different sounds.
@@ -23,23 +22,25 @@ It was also challenging, as we were using GearVR headsets for the VR landscape, 
 
 
 [View the project on Zubr.co](https://zubr.co/case-study/aisha-devi-vr-performance/)
+
+
 {{< /block >}}
 
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/01.png "portfolioImg")
+![alt](01.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/02.png "portfolioImg")
+![alt](02.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/03.png "portfolioImg")
+![alt](03.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="halfWidth" >}}
-![alt](imgs/04.png "portfolioImg")
+![alt](04.png "portfolioImg")
 {{< /block >}}
 
