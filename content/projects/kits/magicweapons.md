@@ -4,7 +4,7 @@ title = 'Magic Weapons'
 company = 'Created at Ground Shatter'
 subtitle = 'Visual Effects'
 technology = 'Made in Unity'
-bgColour = '#00b894'
+bgColour = '#720F09'
 textColour = '#2d3436'
 
 +++

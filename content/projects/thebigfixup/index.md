@@ -21,19 +21,19 @@ It was absolutely incredible to work with such a beloved IP, as I, like so many 
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/01.jpg "portfolioImg")
+![alt](01.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/02.jpg "portfolioImg")
+![alt](02.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/03.jpg "portfolioImg")
+![alt](03.jpg "portfolioImg")
 {{< /block >}}
 
 {{< block class="oneQuarter" >}}
-![alt](imgs/04.png "portfolioImg")
+![alt](04.png "portfolioImg")
 {{< /block >}}
 
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}

@@ -2,15 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\content\\page",
-    "\\content\\personal",
     "\\content\\projects",
     "\\content\\projects\\kits",
-    "\\content\\projects\\petaversecats",
     "\\themes",
     "\\themes\\my-custom-theme",
     "\\themes\\my-custom-theme\\static"
   ],
-  "SelectedNode": "\\content\\page\\aboutme.md",
+  "SelectedNode": "\\content\\projects\\kits\\mapgeneration.md",
   "PreviewInSolutionExplorer": false
 }

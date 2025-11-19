@@ -6,7 +6,7 @@ company = 'Created at Ground Shatter'
 subtitle = 'Procedual Map Generation'
 technology = 'Made in Unity'
 header_image = 'kitsmap.png'
-bgColour = '#00b894'
+bgColour = '#720F09'
 textColour = '#2d3436'
 
 +++

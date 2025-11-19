@@ -21,7 +21,7 @@ During these projects, I learnt how to make shaders and slowly transitioned into
 
 In my spare time, I make little video games (taking part in lots of game jams), and love drawing and creating digital art.
 
-I am currently based in Tokyo and am open to part time and contract work.
+I am currently based in Tokyo and looking for new projects to get involved withs.
 
 If you would like to contact me please email: viki@alittleredpanda.com
 
