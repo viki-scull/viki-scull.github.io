@@ -13,7 +13,7 @@
       <link>http://localhost:1313/page/aboutme/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       <guid>http://localhost:1313/page/aboutme/</guid>
-      <description>&lt;div class=&#34;oneThird circleOutline&#34;&gt;&#xA;  &lt;!--![alt text](https://picsum.photos/300 &#34;roundImage&#34;)--&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;twoThirds&#34;&gt;&#xA;  &lt;p&gt;I have been working in Unity for over seven years, starting as an AR and VR programmer and designer, working on amazing projects with clients such as the National Gallery, Aardman and Simple Things Music Festival.&lt;/p&gt;&#xA;&lt;p&gt;During these projects, I learnt how to make shaders and slowly transitioned into a technical artist, which is a great way of combining my art skills and programming knowledge.&lt;/p&gt;&#xA;&lt;p&gt;In my spare time, I make little video games (taking part in lots of game jams), and love drawing and creating digital art.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;oneThird circleOutline&#34;&gt;&#xA;  &lt;!--![alt text](https://picsum.photos/300 &#34;roundImage&#34;)--&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;twoThirds aboutMeText&#34;&gt;&#xA;  &lt;p&gt;I have been working in Unity for over seven years, starting as an AR and VR programmer and designer, working on amazing projects with clients such as the National Gallery, Aardman and Simple Things Music Festival.&lt;/p&gt;&#xA;&lt;p&gt;During these projects, I learnt how to make shaders and slowly transitioned into a technical artist, which is a great way of combining my art skills and programming knowledge.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

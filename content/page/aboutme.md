@@ -13,7 +13,7 @@ layout = "single"
 {{< /block >}}
 
 
-{{< block class="twoThirds" >}}
+{{< block class="twoThirds aboutMeText" >}} 
 I have been working in Unity for over seven years, starting as an AR and VR programmer and designer, working on amazing projects with clients such as the National Gallery, Aardman and Simple Things Music Festival.
 
 During these projects, I learnt how to make shaders and slowly transitioned into a technical artist, which is a great way of combining my art skills and programming knowledge.
@@ -23,7 +23,7 @@ In my spare time, I make little video games (taking part in lots of game jams), 
 
 I am currently based in Tokyo and looking for new projects to get involved withs.
 
-If you would like to contact me please email: viki@alittleredpanda.com
+If you would like to contact me please email: viki@alittleredpanda.com and see [my CV here](/files/VikiScull_CV.pdf).
 
 
 [<i class="aboutIcons fa-brands fa-bluesky "></i>](https://bsky.app/profile/alittleredpanda.bsky.social)

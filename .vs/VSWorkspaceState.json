@@ -6,8 +6,11 @@
     "\\content\\projects\\kits",
     "\\themes",
     "\\themes\\my-custom-theme",
+    "\\themes\\my-custom-theme\\assets",
+    "\\themes\\my-custom-theme\\assets\\css",
+    "\\themes\\my-custom-theme\\layouts",
+    "\\themes\\my-custom-theme\\layouts\\_markup",
     "\\themes\\my-custom-theme\\static"
   ],
-  "SelectedNode": "\\content\\projects\\kits\\mapgeneration.md",
   "PreviewInSolutionExplorer": false
 }
