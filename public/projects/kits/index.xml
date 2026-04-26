@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 26 Mar 2025 20:38:22 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/kits/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Magic Moves</title>
+      <link>http://localhost:1313/projects/kits/magicmoves/</link>
+      <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/projects/kits/magicmoves/</guid>
+      <description>&lt;div class=&#34;twoThirds portfolio&#34;&gt;&#xA;  &lt;p&gt;Magic Spell Effects for the deck-building Roguelike, Knights in Tight Spaces (developed by Ground Shatter, published by Raw Fury).&lt;/p&gt;&#xA;&lt;p&gt;Using Unity&amp;rsquo;s VFX Graph, I created a range of magic spell effects, for attacks, healing and other miscellaneous activities. This was my first project using VFX Graph, which I found to offer so much more than the old Particle system in Unity.&lt;/p&gt;&#xA;&lt;p&gt;I was able to create &amp;ldquo;base&amp;rdquo; effects and turn on and off various parts, and change colours so that we could reuse the same effect over and over. The gif below shows the moves Enrage, Defensive Cleanse, Defuse, Bloody Roar, and Blood Fury which all use the same VFX prefab, in different colours with different settings.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Magic Weapons</title>
       <link>http://localhost:1313/projects/kits/magicweapons/</link>
       <pubDate>Wed, 26 Mar 2025 20:38:22 +0900</pubDate>
