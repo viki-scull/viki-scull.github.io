@@ -333,6 +333,9 @@ margin-top: 0px;
 	text-decoration: line-through;
 }
 
+a {
+  transition-duration: 0.6s;
+}
 
 /******
 Resizing for mobile
@@ -353,3 +356,78 @@ Resizing for mobile
 		line-height: 100%;
 	}
 }
+
+/*****
+Blog Posts
+*****/
+
+.blogContainer{
+	grid-column: span 9;
+	display: grid;
+	grid-template-columns: subgrid;
+}
+
+.blogSideBar a:hover, .blogContainer a:hover{
+	opacity: 0.4;
+}
+
+.blogPost{
+	grid-column: span 8;
+	display: grid;
+	grid-template-columns: subgrid;
+
+	padding-bottom: 5px;
+	border-bottom: 1px #E4E4E4 solid;
+	margin-bottom: 30px;
+
+}
+
+.blogSideBar {
+	grid-column: span 3;
+	padding: 25px;
+}
+
+.blogSideBar h4 {
+	font-family: "justcosmicregular", serif;
+	font-weight: 400;
+	font-size: 22pt;
+	text-align: left;
+	margin-bottom: -10px;
+}
+
+.blogImg{
+	grid-column: span 3;
+}
+
+.blogImg img
+{
+	width: 100%;
+	height: auto;
+}
+
+.blogPostText
+{
+	grid-column: span 5;
+
+}
+
+
+.blogPost h4 {
+	font-family: "justcosmicregular", serif;
+	font-weight: 400;
+	font-size: 22pt;
+	text-align: right;
+	margin-top: -3pt;
+}
+
+.blogPost h5 {
+	font-weight: 300;
+	font-size: 12pt;
+	margin-top: -20pt;
+	text-align: right;
+}
+
+.blogPost p {
+		margin-top: -10pt;
+}
+

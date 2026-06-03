@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+
+<div class="fullWidth">
+
+   <h2>{{ .Title }}</h2> 
+
+</div>
+
+
+
+   <div class="twoThirds">
+   <h4>{{ .Date.Format "Jan 2, 2006" }} // 
+    {{ with .Params.tags }}
+      {{ range . }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">
+          #{{ . }}
+        </a>
+      {{ end }}
+  {{ end }}
+  </h4>
+
+
+
+  {{ .Content }}
+
+
+
+  </div>
+
+
+
+
+  <!--
+
+ {{ $posts := where site.RegularPages "Section" "blog" }}
+  {{ partial "blogSidebar.html" (dict
+   "page" .
+    "tags" site.Taxonomies.tags
+    "postsByYear" ($posts.GroupByDate "2006"))
+  }}
+  -->
+
+{{ end }}

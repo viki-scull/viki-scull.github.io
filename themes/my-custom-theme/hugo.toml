@@ -4,14 +4,22 @@ title = 'My New Hugo Site'
 
 [menus]
   [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
+    name = "Home"
+    pageRef = "/"
+    weight = 1
 
   [[menus.main]]
-    name = 'About Me'
-    pageRef = '/page/aboutme'
-    weight = 20
+    name = "About Me"
+    pageRef = "/page/aboutme"
+    weight = 2
+
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 3
+
+
+
 
 
 [module]

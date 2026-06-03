@@ -1,0 +1,55 @@
+﻿{{ define "main" }}
+
+
+<div class="fullWidth introHeader">
+
+   <h2>{{ .Title }}</h2>
+    {{ .Content }}
+
+</div>
+
+
+
+
+  <div class = "blogContainer">
+    {{ range .Pages.ByDate.Reverse }}
+    <div class = "blogPost">
+    <div class=blogImg>
+        <a href="{{ .RelPermalink }}">
+            <img src="{{ .RelPermalink }}{{ .Params.featured_image}}">
+        </a>
+    </div>
+
+    <div class="blogPostText">
+        <a href="{{ .RelPermalink }}">
+            <h4>{{ .Title }}</h4>
+            <h5>{{ .Date.Format "Jan 2, 2006" }}</h5>
+            <p>{{ .Params.Subtitle }}</p>
+
+            {{ with .Params.tags }}
+                <div class="tags">
+                {{ range . }}
+                    <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">
+                    #{{ . }}
+                    </a>
+                {{ end }}
+                </div>
+
+            {{ end }}
+        </a>
+      </div>
+      </div>
+    {{ end }}
+  </div>
+
+
+  {{ $posts := where site.RegularPages "Section" "blog" }}
+  {{ partial "blogSidebar.html" (dict
+   "page" .
+    "tags" site.Taxonomies.tags
+    "postsByYear" ($posts.GroupByDate "2006"))
+  }}
+
+
+
+{{ end }}

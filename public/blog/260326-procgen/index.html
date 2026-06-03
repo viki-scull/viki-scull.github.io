@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Procedually Generated Bookcases | Viki Scull Portfolio</title>
+
+
+
+<link rel="stylesheet" href="/css/main.css"/>
+
+<script src="https://kit.fontawesome.com/aa4928ad39.js" crossorigin="anonymous"></script>
+
+<meta charset="UTF-8">
+
+</head>
+<body>
+  <header>
+    
+
+  <nav>
+      <a href="/">Home</a>
+      <a href="/page/aboutme/">About Me</a>
+      <a aria-current="true" class="ancestor" href="/blog/">Blog</a>
+  </nav>
+
+
+  </header>
+  <main>
+    
+
+
+<div class="fullWidth">
+
+   <h2>Procedually Generated Bookcases</h2> 
+
+</div>
+
+
+
+   <div class="twoThirds">
+   <h4>Mar 26, 2026 // 
+    
+      
+        <a href="/tags/procedual-generation">
+          #procedual generation
+        </a>
+      
+  
+  </h4>
+
+
+
+  <div class=" portfolio">
+  <a href="https://alittleredpanda.itch.io/procedually-generated-bookcase">View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i></a>
+</div>
+
+<p>I have a constant battle with myself over properly learning to 3D model. It&rsquo;s so much easier to just model with code, right? RIGHT?</p>
+<p>My latest journey into procedural generation came in the form of little bookcases. I haven&rsquo;t made anything like this for a while, and have ideas for a future Big Proc Gen project, so I wanted some practice, something that would only take me a few weeks to create.</p>
+<p>I began by getting the basic shapes in, the shelves the very cube like books. The shelf generation step works out how many shelves we want, how wide they should be. And the type of shelf, whether it has sides or just corners. If it has a top etc.</p>
+<p><img src="01.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>The books did just have one diagonal to show depth, but that was too chunky. I briefly discovered a shape called the &ldquo;squircle&rdquo; and was going to make the book spines into squircles, but that&rsquo;s a bit more complex than I wanted. In the end, the edges of the spines are quarter circles, so I can control their smoothness. I think they have four faces each.</p>
+<p><img src="books.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>I had a list of ideas of things to put on the shelves, but settled on just photo frames. They share their colour palette with the books. And the images are just generated noise from shader graph.</p>
+<p>Once the books have been placed, an invisible box is placed on the shelf, and any books colliding with it are destroyed. The frame then appears in its place. It&rsquo;s probably not the most elegant way of placing the frames, but it works. I made the frame as a &ldquo;ThingsOnShelves&rdquo; class, so that if I want to add more items I can, I just need to code their models.</p>
+<p>Finally the bunting. It&rsquo;s just a LineRender on a Bezier curve between the shelf sides. And little flags spawn along it.</p>
+<video width="100%" height="auto" controls>
+  <source src="bookcases.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<p>All along the way, I was changing values, making everything a bit chunkier etc. That&rsquo;s why I think it&rsquo;s important to just get the basic shapes first. As you add more, you see the kind of feel you want your model to have. Saying that, I do still sketch everything out, because when each vertex has to be manually placed, you need to consider the exact co-ordinates.</p>
+<p>The actual process of procedurally generating meshes is a difficult one. And I learnt about it quite a while ago from the following tutorials</p>
+<ul>
+<li><a href="https://catlikecoding.com/unity/tutorials/procedural-meshes/">Cat Like Coding series on Procedual Meshes</a></li>
+<li><a href="https://www.udemy.com/course/unity_procgen/">3D Procedual Mesh Generation, by my good friend Oliver Carson</a></li>
+<li>And <a href="https://www.youtube.com/watch?v=wbpMiKiSKm8&amp;list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3">The Procedural Landmass Generation series by Sebastian Lague</a></li>
+</ul>
+<p>Obviously I know this is not the most optimal way to create bookcases with random books and items, but it&rsquo;s always a fun challenge to make something like this.</p>
+
+
+
+
+  </div>
+
+
+
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

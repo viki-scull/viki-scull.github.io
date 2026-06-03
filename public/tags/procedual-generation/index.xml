@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedual Generation on Viki Scull Portfolio</title>
+    <link>http://localhost:1313/tags/procedual-generation/</link>
+    <description>Recent content in Procedual Generation on Viki Scull Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Thu, 26 Mar 2026 20:38:22 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/procedual-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procedually Generated Bookcases</title>
+      <link>http://localhost:1313/blog/260326-procgen/</link>
+      <pubDate>Thu, 26 Mar 2026 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/blog/260326-procgen/</guid>
+      <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/procedually-generated-bookcase&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;I have a constant battle with myself over properly learning to 3D model. It&amp;rsquo;s so much easier to just model with code, right? RIGHT?&lt;/p&gt;&#xA;&lt;p&gt;My latest journey into procedural generation came in the form of little bookcases. I haven&amp;rsquo;t made anything like this for a while, and have ideas for a future Big Proc Gen project, so I wanted some practice, something that would only take me a few weeks to create.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

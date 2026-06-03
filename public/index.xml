@@ -6,77 +6,35 @@
     <description>Recent content in Hi I&#39;m Viki on Viki Scull Portfolio</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
-    <lastBuildDate>Thu, 26 Jun 2025 20:38:22 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 20:38:22 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/personal/post_01/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/personal/post_01/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+      <title>Signal Manager</title>
+      <link>http://localhost:1313/blog/260428-signals/</link>
+      <pubDate>Tue, 28 Apr 2026 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/blog/260428-signals/</guid>
+      <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/signals&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;01.png&#34; alt=&#34;alt&#34; class=&#34;portfolioImg&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;This jam began after the latest episode of Task Master, in which contestants had interpret notes played on a bagpipe and decipher which word was being spelled out. So that was my original idea, information is passed to the player in one form which they have to repackage in some way and then send on.&lt;/p&gt;&#xA;&lt;p&gt;But how to do this? Initially I thought soundwaves, encourage the player to read waves and work out a message. When doing some research on Saturday morning, I came across the Chladni figures, as used in the Rings of Power Intro Sequence, where vibrations on sand covered metal plates form patterns as sand clusters in areas between vibrations. In his video recreating the Rings of Power intro, Steve Mould shared the equations which form these patterns.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/personal/post_02/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/personal/post_02/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+      <title>Procedually Generated Bookcases</title>
+      <link>http://localhost:1313/blog/260326-procgen/</link>
+      <pubDate>Thu, 26 Mar 2026 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/blog/260326-procgen/</guid>
+      <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/procedually-generated-bookcase&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;I have a constant battle with myself over properly learning to 3D model. It&amp;rsquo;s so much easier to just model with code, right? RIGHT?&lt;/p&gt;&#xA;&lt;p&gt;My latest journey into procedural generation came in the form of little bookcases. I haven&amp;rsquo;t made anything like this for a while, and have ideas for a future Big Proc Gen project, so I wanted some practice, something that would only take me a few weeks to create.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/personal/post_03---copy-2/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/personal/post_03---copy-2/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+      <title></title>
+      <link>http://localhost:1313/blogarchive/archive/</link>
+      <pubDate>Tue, 24 Feb 2026 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/blogarchive/archive/</guid>
+      <description></description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/personal/post_03---copy-3/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/personal/post_03---copy-3/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/personal/post_03---copy/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/personal/post_03---copy/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/personal/post_03/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/personal/post_03/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/projects---copy/post_01/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects---copy/post_01/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/projects---copy/post_02/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects---copy/post_02/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/projects---copy/post_03/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects---copy/post_03/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/projects---copy/post_04/</link>
-      <pubDate>Thu, 26 Jun 2025 20:38:22 +0900</pubDate>
-      <guid>http://localhost:1313/projects---copy/post_04/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+      <title>Not My Beautiful House</title>
+      <link>http://localhost:1313/blog/260224-strangeplace/</link>
+      <pubDate>Tue, 24 Feb 2026 20:38:22 +0900</pubDate>
+      <guid>http://localhost:1313/blog/260224-strangeplace/</guid>
+      <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/not-my-beautiful-house&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;This little puzzle game was made for the Brackeys 2026 Jam, with the theme of Strange Places. Lights will shine the way you can go around this strange house.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;01.png&#34; alt=&#34;alt&#34; class=&#34;portfolioImg&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;My initial idea revolved around a lighting based mechanic I&amp;rsquo;d thought of, where coloured lights could be used to shine on different areas, and affect what you can see, in the post processing. I wanted something looking like the Luigi Mansion mini game for the wii-u, where you could walk around with a torch and things appear in the torch light, but in the style of an Edward Gorey book.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Magic Moves</title>
@@ -178,9 +136,9 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/projects---copy/post_05/</link>
+      <link>http://localhost:1313/page/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects---copy/post_05/</guid>
+      <guid>http://localhost:1313/page/archive/</guid>
       <description></description>
     </item>
   </channel>
