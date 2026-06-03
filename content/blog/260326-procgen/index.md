@@ -1,11 +1,12 @@
 +++
 date = '2026-03-26T20:38:22+09:00'
-draft = true
+draft = false
 title = 'Procedually Generated Bookcases'
 subtitle = 'A little experiment with procedually generated meshes'
 featured_image = 'bookcases.png'
 tags = ["procedual generation"]
 +++
+
 
 {{< block class=" portfolio" >}}
 
