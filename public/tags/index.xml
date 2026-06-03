@@ -22,5 +22,40 @@
       <guid>http://localhost:1313/tags/procedual-generation/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Challenges</title>
+      <link>http://localhost:1313/tags/challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/challenges/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proc Gen</title>
+      <link>http://localhost:1313/tags/proc-gen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/proc-gen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shaders</title>
+      <link>http://localhost:1313/tags/shaders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/shaders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech Art</title>
+      <link>http://localhost:1313/tags/tech-art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tech-art/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity3d</title>
+      <link>http://localhost:1313/tags/unity3d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unity3d/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

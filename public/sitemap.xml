@@ -68,6 +68,9 @@
     <loc>http://localhost:1313/projects/thebigfixup/</loc>
     <lastmod>2021-01-26T20:38:22+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/201022-spooky-techart/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/hiddenflorence/</loc>
     <lastmod>2019-11-26T20:38:22+09:00</lastmod>
   </url><url>
@@ -89,5 +92,15 @@
     <loc>http://localhost:1313/page/archive/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/challenges/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/proc-gen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/shaders/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech-art/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/unity3d/</loc>
   </url>
 </urlset>

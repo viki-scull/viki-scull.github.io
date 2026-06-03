@@ -29,5 +29,12 @@
       <guid>http://localhost:1313/blog/260224-strangeplace/</guid>
       <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/not-my-beautiful-house&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;This little puzzle game was made for the Brackeys 2026 Jam, with the theme of Strange Places. Lights will shine the way you can go around this strange house.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;01.png&#34; alt=&#34;alt&#34; class=&#34;portfolioImg&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;My initial idea revolved around a lighting based mechanic I&amp;rsquo;d thought of, where coloured lights could be used to shine on different areas, and affect what you can see, in the post processing. I wanted something looking like the Luigi Mansion mini game for the wii-u, where you could walk around with a torch and things appear in the torch light, but in the style of an Edward Gorey book.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>A Spooky Tech Art Challenge</title>
+      <link>http://localhost:1313/blog/201022-spooky-techart/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/201022-spooky-techart/</guid>
+      <description>&lt;p&gt;Initially I wasn’t very keen on this fortnight’s theme of “replication” for the Tech Art Challenge. It was a little bit too open, I had an idea of copying the “swimming through swamp water effect” from The Last of Us 2, but then, at work, we were discussing games with different effects and Perception came up.&lt;/p&gt;&#xA;&lt;p&gt;Perception is a survival horror game, made by The Deep End Games in 2017. And the main mechanic of it is that the heroine, Cassie, is blind. She can only see by echolocation, so she taps her cane and can see where a clock chimes and pipes rumble.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
