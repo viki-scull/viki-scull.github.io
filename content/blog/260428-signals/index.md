@@ -8,13 +8,7 @@ tags = ["game jam"]
 
 +++
 
-
-
-{{< block class=" portfolio" >}}
-
-[View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i>](https://alittleredpanda.itch.io/signals)
-
-{{< /block >}}
+{{< chunkyExternalLink url="https://alittleredpanda.itch.io/signals" linkName="View on itch.io" iconName="fa-itch-io" >}}
 
 ![alt](01.png "portfolioImg")
 

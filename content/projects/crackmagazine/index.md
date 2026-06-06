@@ -8,6 +8,9 @@ technology = 'Made in Unity, with AR Kit, and Facebook Filter created in Spark A
 bgColour = '#00b894'
 textColour = '#2d3436'
 
+linkurl = 'https://zubr.co/case-study/aphex-twin-ar-experience/'
+linkName = 'View the project on Zubr.co'
+
 +++
 
 {{< block class="twoThirds portfolio" >}}
@@ -17,10 +20,6 @@ To mark a exclusive interview between Crack Magazine and electronic music artist
 Across the ten page spread, art work created by Aphex Twin's visual partner Weird Core, could be scanned and distort and warp.
 
 As well as working on shaders for this app, I also created a Facebook Filter to compliment the app.
-
-
-
-[View the project on Zubr.co](https://zubr.co/case-study/aphex-twin-ar-experience/)
 
 {{< /block >}}
 

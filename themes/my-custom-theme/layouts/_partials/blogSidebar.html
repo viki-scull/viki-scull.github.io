@@ -1,12 +1,13 @@
 <div class = "blogSideBar">
   <h4>Tags</h4>
-  <ul>
+  <ul class = "tagList">
     {{ range $name, $taxonomy := .tags }}
-      <li>
+      
         <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">
+        <li>
           {{ $name | humanize }}
+          </li>
         </a>
-      </li>
     {{ end }}
   </ul>
 

@@ -8,19 +8,17 @@ technology = 'Made in Unity, with AR Kit'
 bgColour = '#786D68'
 textColour = '#2d3436'
 
+linkurl = 'https://zubr.co/case-study/window-to-the-past/'
+linkName = 'View the project on Zubr.co'
+
 +++
 
-{{< block class="twoThirds portfolio" >}}
+{{< block class="twoThirds chunkyLink" >}}
 To celebrate the Bristol Old Vic's 250th birthday, the theatre completely redeveloped their foyer and we created an app to show how the space used to look at various points through time. 
 
 Users could walk through portals in the foyer and enter pre-rendered domes and find story bites and anecdotes from the theatre's past.
 
 I was the lead programmer on this project, and developed the AR portal journey to transport the user through time. I also learnt a lot about AR user experience when placing an app in an exisiting location, and how much you have to account for user error in apps like this.
-
-
-
-
-[View the project on Zubr.co](https://zubr.co/case-study/window-to-the-past/)
 
 {{< /block >}}
 

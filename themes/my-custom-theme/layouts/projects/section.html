@@ -7,13 +7,14 @@
 <div class="fullWidth portfolio">
   <h2><span class="boldSpan">{{ .Title }}</span> // {{ .Params.subtitle }}</h2>
 </div>
-<div class="oneThird infoBox">
+<div class="oneThird infoBox" >
 <p> {{ .Params.company }}
 <p> {{ .Params.technology }}
 
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format "January 2006" }}
 <p> <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+<p> <a href="{{ .Params.linkurl}}" target="_blank">{{ .Params.linkName}}</a>
   </div>
 
   {{ .Content }}

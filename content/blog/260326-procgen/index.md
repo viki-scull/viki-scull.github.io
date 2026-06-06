@@ -8,11 +8,8 @@ tags = ["procedual generation"]
 +++
 
 
-{{< block class=" portfolio" >}}
+{{< chunkyExternalLink url="https://alittleredpanda.itch.io/procedually-generated-bookcase" linkName="View on itch.io" iconName="fa-itch-io" >}}
 
-[View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i>](https://alittleredpanda.itch.io/procedually-generated-bookcase)
-
-{{< /block >}}
 
 I have a constant battle with myself over properly learning to 3D model. It's so much easier to just model with code, right? RIGHT?
 

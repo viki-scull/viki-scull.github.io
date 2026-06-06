@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content",
-    "\\content\\blog",
-    "\\content\\blog\\260224-strangeplace",
-    "\\content\\blog\\260326-procgen",
-    "\\content\\blog\\260428-signals",
+    "\\assets",
     "\\themes",
     "\\themes\\my-custom-theme",
+    "\\themes\\my-custom-theme\\data",
     "\\themes\\my-custom-theme\\layouts",
-    "\\themes\\my-custom-theme\\layouts\\_partials"
+    "\\themes\\my-custom-theme\\layouts\\blog"
   ],
-  "SelectedNode": "\\content\\blog\\260326-procgen\\index.md",
+  "SelectedNode": "\\themes\\my-custom-theme\\layouts\\blog\\list.html",
   "PreviewInSolutionExplorer": false
 }

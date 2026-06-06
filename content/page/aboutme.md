@@ -13,7 +13,7 @@ layout = "single"
 {{< /block >}}
 
 
-{{< block class="twoThirds aboutMeText" >}} 
+{{< block class="twoThirds" >}} 
 I have been working in Unity for over seven years, starting as an AR and VR programmer and designer, working on amazing projects with clients such as the National Gallery, Aardman and Simple Things Music Festival.
 
 During these projects, I learnt how to make shaders and slowly transitioned into a technical artist, which is a great way of combining my art skills and programming knowledge.
@@ -32,7 +32,6 @@ If you would like to contact me please email: viki@alittleredpanda.com and see [
 [<i class="aboutIcons fa-brands fa-artstation"></i>](https://vikijohnson.artstation.com/) 
 [<i class="aboutIcons fa-brands fa-github"></i>](https://github.com/viki-scull)
 [<i class="aboutIcons fa-brands fa-tiktok"></i>](https://www.tiktok.com/@alittleredpanda/)
-
 
 
 

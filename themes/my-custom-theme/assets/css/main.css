@@ -34,10 +34,6 @@ footer {
   margin-top: 1rem;
 }
 
-a {
-  color: #e6eafb;
-  text-decoration: none;
-}
 
 h1 {
 	font-family: "justcosmicregular", serif;
@@ -97,12 +93,7 @@ nav {
 	text-align: right;
 	z-index: 10;
 	background-color: #272B32;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 16pt;
-    padding: 0px 35px; 
+	font-size: 16pt;
 }
 
 
@@ -188,13 +179,6 @@ nav a {
 	transition: all 0.5s ease-in-out;
 }
 
-.item a {
-}
-
-
-.aboutIcon{
-	height: 50px;
-}
 
 ul li {
 	line-height: 120%;
@@ -257,20 +241,6 @@ Grid Columns
 	width: 100%;
 }
 
-.portfolio a {
-	color: #42384b;
-	background-color: #e6eafb;
-	padding: 8px 15px;
-	text-decoration: none;
-	border-radius: 8px; 
-	margin-top: 20px;
-}
-
-.portfolio a:hover {
-	background-color: #42384b;
-	color: #e6eafb;
-}
-
 
 
 .boldSpan{
@@ -289,7 +259,7 @@ About me page
 ******/
 
 .circleOutline {
-margin-top: 0px;
+  margin-top: 0px;
   width: 250px;
   height: 250px;
   background-image: url('/images/IMG_6612.jpg');
@@ -316,25 +286,8 @@ margin-top: 0px;
 .aboutIcons{
 	font-size: 24pt;
     text-align: right;
-	transition: all 0.3s ease-in-out;
 	padding-right: 10px;
-}
-
-
-.aboutIcons:hover{
-	opacity: 0.5;	
-}
-
-.aboutMeText a {
-	text-decoration: underline;
-}
-
-.aboutMeText a:hover{
-	text-decoration: line-through;
-}
-
-a {
-  transition-duration: 0.6s;
+	height: 50px;
 }
 
 /******
@@ -365,10 +318,6 @@ Blog Posts
 	grid-column: span 9;
 	display: grid;
 	grid-template-columns: subgrid;
-}
-
-.blogSideBar a:hover, .blogContainer a:hover{
-	opacity: 0.4;
 }
 
 .blogPost{
@@ -430,4 +379,60 @@ Blog Posts
 .blogPost p {
 		margin-top: -10pt;
 }
+
+.tagList{
+	list-style-type: "#"
+}
+
+
+/*****
+Link Types
+*****/
+
+a, .aboutIcons {
+  color: #e6eafb;
+  text-decoration: none;
+}
+
+a, .aboutIcons {
+  transition: all 0.4s ease-in-out;
+}
+
+.twoThirds a, .infoBox a {
+	color: #a29bfe;
+	font-weight: normal;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16pt;
+    padding: 0px 35px; 
+}
+
+a:hover, .aboutIcons:hover {
+	color: #e84393;
+	text-decoration: none;
+}
+
+.blogImg:hover, .blogPostText a:hover {
+	opacity: 0.5;
+}
+
+.chunkyLink a {
+	color: #42384b;
+	background-color: #e6eafb;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 8px; 
+	margin-top: 20px;
+}
+
+.chunkyLink a:hover {
+	background-color: #272B32;
+	color: #e84393;
+	text-decoration: none;
+}
+
+
+
 

@@ -8,6 +8,10 @@ technology = 'Made in Unity'
 bgColour = '#5A281A'
 textColour = '#2d3436'
 
+
+linkurl = 'https://www.knightsintightspaces.com/'
+linkName = 'KnightsInTightSpaces.com'
+
 +++
 
 {{< block class="twoThirds portfolio" >}}
@@ -17,9 +21,6 @@ I worked as a technical artist on this project, working with the artists to deve
 
 There is still more to add to this page.
 
-
-
-[KnightsInTightSpaces.com](https://www.knightsintightspaces.com/)
 {{< /block >}}
 
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}

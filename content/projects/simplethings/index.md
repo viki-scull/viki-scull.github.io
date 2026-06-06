@@ -8,6 +8,9 @@ technology = 'Made in Unity, with AR Foundation'
 bgColour = '#66587a'
 textColour = '#2d3436'
 
+linkurl = 'https://zubr.co/case-study/aisha-devi-vr-performance/'
+linkName = 'View the project on Zubr.co'
+
 +++
 
 {{< block class="twoThirds portfolio" >}}
@@ -19,12 +22,8 @@ This was a fun and interesting project to work on, working out how to create par
 
 It was also challenging, as we were using GearVR headsets for the VR landscape, which utilised the camera and AR function to keep the users in the correct place based on tracking images around the area.
 
-
-
-[View the project on Zubr.co](https://zubr.co/case-study/aisha-devi-vr-performance/)
-
-
 {{< /block >}}
+
 
 {{< block class="portfolioPaddingSmall" >}}{{< /block >}}
 

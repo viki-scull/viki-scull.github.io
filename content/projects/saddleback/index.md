@@ -8,6 +8,9 @@ technology = 'Made in Unity, with AR Kit'
 bgColour = '#5880E2'
 textColour = '#2d3436'
 
+linkurl = 'https://zubr.co/case-study/saddleback-rouleur-live/'
+linkName = 'View the project on Zubr.co'
+
 +++
 
 {{< block class="twoThirds portfolio" >}}
@@ -20,8 +23,6 @@ At the back of the room we created AR windows to show a glimpse into the Saddleb
 
 On this project, I was the lead programmer. I also designed and created the window video experiences, I made the animated UI around the cycling paraphnalia. And I made shaders to add an extra layer to the experience.
 
-
-[View the project on Zubr.co](https://zubr.co/case-study/saddleback-rouleur-live/)
 
 {{< /block >}}
 

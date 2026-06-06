@@ -7,11 +7,8 @@ featured_image = 'title.png'
 tags = ["game jam"]
 +++
 
-{{< block class=" portfolio" >}}
 
-[View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i>](https://alittleredpanda.itch.io/not-my-beautiful-house)
-
-{{< /block >}}
+{{< chunkyExternalLink url="https://alittleredpanda.itch.io/not-my-beautiful-house" linkName="View on itch.io" iconName="fa-itch-io" >}}
 
 This little puzzle game was made for the Brackeys 2026 Jam, with the theme of Strange Places. Lights will shine the way you can go around this strange house.
 
