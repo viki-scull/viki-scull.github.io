@@ -1,13 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
+    "\\content",
+    "\\content\\page",
     "\\themes",
     "\\themes\\my-custom-theme",
-    "\\themes\\my-custom-theme\\data",
+    "\\themes\\my-custom-theme\\assets",
+    "\\themes\\my-custom-theme\\assets\\css",
     "\\themes\\my-custom-theme\\layouts",
-    "\\themes\\my-custom-theme\\layouts\\blog"
+    "\\themes\\my-custom-theme\\layouts\\_partials",
+    "\\themes\\my-custom-theme\\layouts\\_partials\\head",
+    "\\themes\\my-custom-theme\\layouts\\_shortcodes"
   ],
-  "SelectedNode": "\\themes\\my-custom-theme\\layouts\\blog\\list.html",
+  "SelectedNode": "\\themes\\my-custom-theme\\layouts\\_partials\\head.html",
   "PreviewInSolutionExplorer": false
 }

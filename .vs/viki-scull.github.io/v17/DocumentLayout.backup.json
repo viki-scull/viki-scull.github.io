@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260326-procgen\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\blog\\260326-procgen\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\blog\\list.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\blog\\list.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260224-strangeplace\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\blog\\260224-strangeplace\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260428-signals\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\blog\\260428-signals\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\blog\\single.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\blog\\single.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\assets\\css\\main.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\assets\\css\\main.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\public\\tags\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\tags\\index.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogTags.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\_partials\\blogTags.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\tags\\list.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\tags\\list.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\page.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\page.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\projects\\section.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\projects\\section.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\terms.html||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:themes\\my-custom-theme\\layouts\\_partials\\terms.html||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\projects\\hiddenflorence\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\projects\\hiddenflorence\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,124 +47,99 @@
           ]
         },
         {
-          "DockedWidth": 235,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 315,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "blogSidebar.html",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
-              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
-              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-22T16:05:49.32Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "index.md",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260326-procgen\\index.md",
-              "RelativeDocumentMoniker": "content\\blog\\260326-procgen\\index.md",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260326-procgen\\index.md",
-              "RelativeToolTip": "content\\blog\\260326-procgen\\index.md",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-22T16:04:04.509Z",
+              "Title": "list.html",
+              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\blog\\list.html",
+              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\blog\\list.html",
+              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\blog\\list.html",
+              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\blog\\list.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-06T14:06:36.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "single.html",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\blog\\single.html",
-              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\blog\\single.html",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\blog\\single.html",
-              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\blog\\single.html",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Title": "blogTags.html",
+              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogTags.html",
+              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\_partials\\blogTags.html",
+              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogTags.html",
+              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\_partials\\blogTags.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-22T15:36:33.542Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 147,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.md",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260224-strangeplace\\index.md",
-              "RelativeDocumentMoniker": "content\\blog\\260224-strangeplace\\index.md",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260224-strangeplace\\index.md",
-              "RelativeToolTip": "content\\blog\\260224-strangeplace\\index.md",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-06-03T02:10:34.889Z",
+              "WhenOpened": "2026-06-06T14:00:00.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.md",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260428-signals\\index.md",
-              "RelativeDocumentMoniker": "content\\blog\\260428-signals\\index.md",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\blog\\260428-signals\\index.md",
-              "RelativeToolTip": "content\\blog\\260428-signals\\index.md",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-18T12:15:13.839Z"
+              "DocumentIndex": 1,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\assets\\css\\main.css",
+              "RelativeDocumentMoniker": "themes\\my-custom-theme\\assets\\css\\main.css",
+              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\assets\\css\\main.css",
+              "RelativeToolTip": "themes\\my-custom-theme\\assets\\css\\main.css",
+              "ViewState": "AgIAAIgBAAAAAAAAAAAAAJwBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-06T13:32:34.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "section.html",
               "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\projects\\section.html",
               "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\projects\\section.html",
               "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\projects\\section.html",
               "RelativeToolTip": "themes\\my-custom-theme\\layouts\\projects\\section.html",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-22T15:22:18.488Z"
+              "WhenOpened": "2026-06-06T13:29:41.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "page.html",
+              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\page.html",
+              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\page.html",
+              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\page.html",
+              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\page.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-06T13:06:17.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "list.html",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\tags\\list.html",
-              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\tags\\list.html",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\tags\\list.html",
-              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\tags\\list.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-19T12:04:03.754Z"
+              "Title": "index.md",
+              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\projects\\hiddenflorence\\index.md",
+              "RelativeDocumentMoniker": "content\\projects\\hiddenflorence\\index.md",
+              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\content\\projects\\hiddenflorence\\index.md",
+              "RelativeToolTip": "content\\projects\\hiddenflorence\\index.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-06T12:57:21.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\public\\tags\\index.html",
-              "RelativeDocumentMoniker": "public\\tags\\index.html",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\public\\tags\\index.html",
-              "RelativeToolTip": "public\\tags\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "blogSidebar.html",
+              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
+              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
+              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
+              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\_partials\\blogSidebar.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-19T11:54:55.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "terms.html",
-              "DocumentMoniker": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\terms.html",
-              "RelativeDocumentMoniker": "themes\\my-custom-theme\\layouts\\_partials\\terms.html",
-              "ToolTip": "C:\\Users\\viki-\\Documents\\Github\\viki-scull.github.io\\themes\\my-custom-theme\\layouts\\_partials\\terms.html",
-              "RelativeToolTip": "themes\\my-custom-theme\\layouts\\_partials\\terms.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-18T14:02:03.745Z"
+              "WhenOpened": "2026-05-22T16:05:49.32Z",
+              "EditorCaption": ""
             }
           ]
         },
