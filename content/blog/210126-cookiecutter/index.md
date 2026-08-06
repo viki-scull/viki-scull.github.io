@@ -7,11 +7,9 @@ featured_image = 'title.png'
 tags = ["shaders", "procedual generation"]
 +++
 
-{{< block class=" portfolio" >}}
 
-[View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i>](https://alittleredpanda.itch.io/cookie-cutter)
+{{< chunkyExternalLink url="https://alittleredpanda.itch.io/cookie-cutter" linkName="View on itch.io" iconName="fa-itch-io" >}}
 
-{{< /block >}}
 
 This effect was created for a game jam revolved around making cookies. I think it was something to do with how we’re coping in lockdown. And well. I made a lot of cake.
 

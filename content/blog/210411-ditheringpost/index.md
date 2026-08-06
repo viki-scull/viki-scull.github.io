@@ -8,11 +8,7 @@ tags = ["shaders"]
 
 +++
 
-{{< block class=" portfolio" >}}
-
-[View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i>](https://alittleredpanda.itch.io/dithering-postprocessing)
-
-{{< /block >}}
+{{< chunkyExternalLink url="https://alittleredpanda.itch.io/dithering-postprocessing" linkName="View on itch.io" iconName="fa-itch-io" >}}
 
 Dithering, specifically Ordered Dithering, is a way of displaying images, and was used back when computers only had about 16 colours to choose from, often they were completely monochromatic. Now it's more of a stylistic choice, and a similar effect was used in indie smash hit, Return of the Obra Dinn.
 
