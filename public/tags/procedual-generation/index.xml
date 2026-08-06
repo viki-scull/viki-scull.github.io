@@ -15,5 +15,19 @@
       <guid>http://localhost:1313/blog/260326-procgen/</guid>
       <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/procedually-generated-bookcase&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;I have a constant battle with myself over properly learning to 3D model. It&amp;rsquo;s so much easier to just model with code, right? RIGHT?&lt;/p&gt;&#xA;&lt;p&gt;My latest journey into procedural generation came in the form of little bookcases. I haven&amp;rsquo;t made anything like this for a while, and have ideas for a future Big Proc Gen project, so I wanted some practice, something that would only take me a few weeks to create.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Making Cookies</title>
+      <link>http://localhost:1313/blog/210126-cookiecutter/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/210126-cookiecutter/</guid>
+      <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/cookie-cutter&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;This effect was created for a game jam revolved around making cookies. I think it was something to do with how we�re coping in lockdown. And well. I made a lot of cake.&lt;/p&gt;&#xA;&lt;p&gt;I wanted cookies that could be cut from a base pattern, and retain said pattern. I don&amp;rsquo;t know if anyone would notice, but it was cool.&lt;/p&gt;&#xA;&lt;p&gt;Anyway. I started with a rounded rectangle and offset the UVs with a noise texture, making it a bit blobby. This was so I could do multiple rounds of cookies and each be unique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Procedually Generated Town Houses</title>
+      <link>http://localhost:1313/blog/200109-procgen-townhouses/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/200109-procgen-townhouses/</guid>
+      <description>&lt;p&gt;As I continued to learn more about Unity last Autumn, I stumbled upon mesh generation, a way of procedually generating simple levels and models without using a 3D modelling programme. Procedual generation, by itself, allows developers to create random level after level as the data for it is created algorithmically instead of manually.&lt;/p&gt;&#xA;&lt;p&gt;I began by going through Cat Like Coding&amp;rsquo;s Tutorial on Mesh Generation, which teaches the basics of creating planes, and cubes and rounded corners. Then I did Oli Carson&amp;rsquo;s Udemy course on procedual generation, to create a race track. Together both of these gave me a good, basic understanding of how to create planes, and plot vectors to build basic models.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

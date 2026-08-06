@@ -1,8 +1,9 @@
 +++
 title = 'A Spooky Tech Art Challenge' 
 date = '2020-10-22'
-subtitle = ' '
+subtitle = 'Echo location post processing shader'
 featured_image = 'title.png'
+tags = ["shaders"]
 +++
 
 Initially I wasn’t very keen on this fortnight’s theme of “replication” for the Tech Art Challenge. It was a little bit too open, I had an idea of copying the “swimming through swamp water effect” from The Last of Us 2, but then, at work, we were discussing games with different effects and Perception came up.
@@ -16,7 +17,7 @@ The view the player has is a very ghostly blue vision, adding to the eerie atmos
 
 I haven’t actually played Perception, but from watching some videos of the gameplay I had a pretty good idea of how this was done, or rather how I would do it. I had made post processing shaders before that use depth, or distance from a set point to transition between two camera views, so that’s where I started.
 
-## Part One: The Post Processing Shader
+### Part One: The Post Processing Shader
 
 I used this tutorial as a basis: [Shaders Case Study - No Man’s Sky: Topographic Scanner - YouTube](https://www.youtube.com/watch?v=OKoNp2RqE9A). In which a scanner moves out from a specific point. The placement of the scan line is based on the “scan distance” from the set point, which gradually increases.
 
@@ -86,7 +87,7 @@ I might overuse saturate, but it ensures the value stays between 0 and 1, and th
 
 Then at end we return a lerp between the camera feed and the dark colour, based on the mask we just made.
 
-## Part Two: The Script
+### Part Two: The Script
 
 Again large parts of this are the same. But we need to add some more properties:
 
@@ -163,9 +164,9 @@ Finally we edit the OnRenderImage:
 
 We just need to set both of the arrays in the shader.  And that’s it! More or less. But we want some of that nice blue ghostliness.
 
-## Part Three: Fresnal Shader
+### Part Three: Fresnal Shader
 
-For this, I wanted to use a fresnel shader. And grabbed a nice basic one from Ronja](https://www.ronja-tutorials.com/2018/05/26/fresnel.html), who writes amazing shader tutorials.
+For this, I wanted to use a fresnel shader. And grabbed a nice basic one from [Ronja](https://www.ronja-tutorials.com/2018/05/26/fresnel.html), who writes amazing shader tutorials.
 
 I did away with the albedo, because the emission is all I care about. And so repurposed the Main Tex as a noise, which adds extra spooky to the scene.
 

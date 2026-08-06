@@ -41,6 +41,12 @@
    <div class="twoThirds">
    <h4>Oct 22, 2020 // 
     
+      
+        <a href="/tags/shaders">
+          #shaders
+        </a>
+      
+  
   </h4>
 
 
@@ -52,7 +58,7 @@
 
 </p>
 <p>I haven’t actually played Perception, but from watching some videos of the gameplay I had a pretty good idea of how this was done, or rather how I would do it. I had made post processing shaders before that use depth, or distance from a set point to transition between two camera views, so that’s where I started.</p>
-<h2 id="part-one-the-post-processing-shader">Part One: The Post Processing Shader</h2>
+<h3 id="part-one-the-post-processing-shader">Part One: The Post Processing Shader</h3>
 <p>I used this tutorial as a basis: <a href="https://www.youtube.com/watch?v=OKoNp2RqE9A">Shaders Case Study - No Man’s Sky: Topographic Scanner - YouTube</a>. In which a scanner moves out from a specific point. The placement of the scan line is based on the “scan distance” from the set point, which gradually increases.</p>
 <p>But I don’t need the whole of this shader and script. My properties look like this:</p>
 <pre tabindex="0"><code>    Properties
@@ -101,7 +107,7 @@
 <p>The script inside the for loop returns what is essentially a blob around each point in the _WorldSpaceScannerPos and adds it to my mask.  Note that this array doesn’t use the actual length of either array, rather the ArrayLength int.</p>
 <p>I might overuse saturate, but it ensures the value stays between 0 and 1, and that we don’t get any crazy oversaturated bright parts.</p>
 <p>Then at end we return a lerp between the camera feed and the dark colour, based on the mask we just made.</p>
-<h2 id="part-two-the-script">Part Two: The Script</h2>
+<h3 id="part-two-the-script">Part Two: The Script</h3>
 <p>Again large parts of this are the same. But we need to add some more properties:</p>
 <pre tabindex="0"><code>    public Transform character;
     public Material EffectMaterial;
@@ -159,8 +165,8 @@
         RaycastCornerBlit(src, dst, EffectMaterial);
     }
 </code></pre><p>We just need to set both of the arrays in the shader.  And that’s it! More or less. But we want some of that nice blue ghostliness.</p>
-<h2 id="part-three-fresnal-shader">Part Three: Fresnal Shader</h2>
-<p>For this, I wanted to use a fresnel shader. And grabbed a nice basic one from Ronja](<a href="https://www.ronja-tutorials.com/2018/05/26/fresnel.html)">https://www.ronja-tutorials.com/2018/05/26/fresnel.html)</a>, who writes amazing shader tutorials.</p>
+<h3 id="part-three-fresnal-shader">Part Three: Fresnal Shader</h3>
+<p>For this, I wanted to use a fresnel shader. And grabbed a nice basic one from <a href="https://www.ronja-tutorials.com/2018/05/26/fresnel.html">Ronja</a>, who writes amazing shader tutorials.</p>
 <p>I did away with the albedo, because the emission is all I care about. And so repurposed the Main Tex as a noise, which adds extra spooky to the scene.</p>
 <pre tabindex="0"><code>            float2 uv = i.uv_MainTex;
 

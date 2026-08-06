@@ -4,7 +4,7 @@ draft = false
 title = 'Procedually Generated Town Houses'
 subtitle = ' '
 featured_image = 'title.png'
-tags = ["proc gen"]
+tags = ["procedual generation"]
 +++
 
 As I continued to learn more about Unity last Autumn, I stumbled upon mesh generation, a way of procedually generating simple levels and models without using a 3D modelling programme. Procedual generation, by itself, allows developers to create random level after level as the data for it is created algorithmically instead of manually. 

@@ -2,14 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\content\\blog",
-    "\\content\\blog\\260224-strangeplace",
-    "\\content\\blog\\260326-procgen",
-    "\\content\\blog\\260428-signals",
+    "\\content\\projects",
+    "\\content\\projects\\thebigfixup",
     "\\themes",
     "\\themes\\my-custom-theme",
     "\\themes\\my-custom-theme\\layouts",
     "\\themes\\my-custom-theme\\layouts\\_partials"
   ],
+  "SelectedNode": "\\content\\blog",
   "PreviewInSolutionExplorer": false
 }
