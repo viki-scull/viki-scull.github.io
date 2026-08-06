@@ -107,9 +107,5 @@
     <loc>http://localhost:1313/page/archive/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/proc-gen/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/shaders-procedual-generation/</loc>
   </url>
 </urlset>

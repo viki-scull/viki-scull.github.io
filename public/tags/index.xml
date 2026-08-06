@@ -29,19 +29,5 @@
       <guid>http://localhost:1313/tags/shaders/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Proc Gen</title>
-      <link>http://localhost:1313/tags/proc-gen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/proc-gen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shaders, Procedual Generation</title>
-      <link>http://localhost:1313/tags/shaders-procedual-generation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/shaders-procedual-generation/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
