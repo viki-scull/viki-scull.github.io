@@ -2,15 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\content",
-    "\\content\\page",
+    "\\content\\projects",
+    "\\content\\projects\\thebigfixup",
     "\\themes",
     "\\themes\\my-custom-theme",
-    "\\themes\\my-custom-theme\\assets",
-    "\\themes\\my-custom-theme\\assets\\css",
     "\\themes\\my-custom-theme\\layouts",
-    "\\themes\\my-custom-theme\\layouts\\_partials",
-    "\\themes\\my-custom-theme\\layouts\\_partials\\head",
-    "\\themes\\my-custom-theme\\layouts\\_shortcodes"
+    "\\themes\\my-custom-theme\\layouts\\_partials"
   ],
+  "SelectedNode": "\\content\\blog",
   "PreviewInSolutionExplorer": false
 }

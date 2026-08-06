@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Dithering Post Processing | Viki Scull Portfolio</title>
+
+
+
+<link rel="stylesheet" href="/css/main.css"/>
+
+<script src="https://kit.fontawesome.com/aa4928ad39.js" crossorigin="anonymous"></script>
+
+<meta charset="UTF-8">
+
+</head>
+<body>
+  <header>
+    
+
+  <nav>
+      <a href="/">Home</a>
+      <a href="/page/aboutme/">About Me</a>
+      <a aria-current="true" class="ancestor" href="/blog/">Blog</a>
+  </nav>
+
+
+  </header>
+  <main>
+    
+
+
+<div class="fullWidth">
+
+   <h2>Dithering Post Processing</h2> 
+
+</div>
+
+
+
+   <div class="twoThirds">
+   <h4>Apr 11, 2021 // 
+    
+      
+        <a href="/tags/shaders">
+          #shaders
+        </a>
+      
+  
+  </h4>
+
+
+
+  <div class=" portfolio">
+  <a href="https://alittleredpanda.itch.io/dithering-postprocessing">View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i></a>
+</div>
+
+<p>Dithering, specifically Ordered Dithering, is a way of displaying images, and was used back when computers only had about 16 colours to choose from, often they were completely monochromatic. Now it&rsquo;s more of a stylistic choice, and a similar effect was used in indie smash hit, Return of the Obra Dinn.</p>
+<p>I wanted to create this effect in Unity, because it seems pretty cool and I want to learn more about post processing, and writing my own post processing scripts.</p>
+<p>Initially I tried to posterise the view, like in Photoshop, and use each layer as a mask to show a different dithery texture, but decided that was just too messy. And it turns out that a dithering algorithm is available online, so it just made sense to use that and adapt it for what I need.</p>
+<h3 id="post-processing-script">Post Processing Script</h3>
+<p>This script just passes the view from the camera to the material specified, which will use our shader. By using ExecuteInEditMode we can see the effect without pressing play</p>
+<pre tabindex="0"><code>
+using UnityEngine;
+[ExecuteInEditMode]
+public class PostProcess : MonoBehaviour {
+    public Material material;
+    void OnRenderImage (RenderTexture source, RenderTexture destination) {
+        Graphics.Blit(source, destination, material);
+    }
+}
+</code></pre><h3 id="dithering-shader">Dithering Shader</h3>
+<p>Our shader only needs three properties, the MainTex, which comes from the camera, and the two colours to dither between</p>
+<pre tabindex="0"><code>_MainTex(&#34;Texture&#34;, 2D) = &#34;white&#34; {}
+_BackgroundCol(&#34;Background&#34;, color) = (0,0,0,0)
+_ForegroundCol(&#34;Foreground&#34;, color) = (0,0,0,0)
+</code></pre><p>Now at this point, if we just return the texture, we&rsquo;ll get our normal scene view</p>
+<p><img src="01.png" alt="alt" class="portfolioImg">
+
+</p>
+<pre tabindex="0"><code>float4 frag(v2f_img input) : COLOR {
+    float4 base = tex2D(_MainTex, input.uv);
+    return base;
+}
+</code></pre><p>So we want to now pass that texture through the dithering algorithm. And that works by getting each of the rgb channels and seeing how close they are to 0 and passing back a 1 or 0 accordingly. You can read more about it <a href="https://en.wikipedia.org/wiki/Ordered_dithering">here</a>.</p>
+<pre tabindex="0"><code>float4 frag(v2f_img input) : COLOR {
+    uint matSize = 4;
+    float4x4 mat = { 1, 8, 2,10,
+                    12,4,14, 6,
+                    3, 11, 1,9,
+                    15, 7 ,13,5
+                    };
+    mat = mat / (matSize * matSize);
+    int pxIndex = input.pos.x; //x index of texel
+    int pyIndex = input.pos.y; //y index of texel
+    float4 base = tex2D(_MainTex, input.uv);
+    //get which index of dithering matrix texel corresponds to
+    int mati = pxIndex % matSize;
+    int matj = pyIndex % matSize;
+    
+    //quantization
+    if (base.r &gt; mat[mati][matj]) { base.r = 1; }
+        else { base.r = 0; }
+    if (base.g &gt; mat[mati][matj]) { base.g = 1; }
+        else { base.g = 0; }
+    if (base.b &gt; mat[mati][matj]) { base.b = 1; }
+        else { base.b = 0; }
+    return base;
+}
+</code></pre><p><img src="02.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>Now this does dither the image. But I want to change this so that it only uses two colours.</p>
+<p>So I added another line underneath base. This takes all three channels and adds them together, dividing by three to make it greyscale. It&rsquo;s not enough to just use one channel.</p>
+<pre tabindex="0"><code>float c = (base.r + base.g + base.b)/3;
+</code></pre><p>I can also delete all those if else statements at the end and replace with this one:</p>
+<pre tabindex="0"><code>if (c &gt; mat[mati][matj]) { c = 1; }
+ else { c = 0; }
+return c;
+</code></pre><p>This will return a black and white dithered image!</p>
+<p><img src="03.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>And to add our colours in, we change the return line to make it a lerp. Now the black and white will be replaced with our two colours!</p>
+<pre tabindex="0"><code>return lerp(_BackgroundCol, _ForegroundCol, c);
+</code></pre><p><img src="04.png" alt="alt" class="portfolioImg">
+
+</p>
+<h3 id="scaling-the-dither">Scaling the Dither</h3>
+<p>I felt that the pixels here were too small. I wanted more retro chunky pixels. Originally I had a RenderTexture attached to the camera, which I stuck on a canvas. I could control the size of the RenderTexture, making the resolution smaller and the pixels bigger. But my friend pointed out that I was just doing the same thing twice in different ways, and making two RenderTextures.</p>
+<p>So instead I looked at editing the RenderTexture I had already created.</p>
+<p>I added a scale variable to the PostProcess script, using a Range attribute so I don&rsquo;t accidentally divide by 0.</p>
+<pre tabindex="0"><code>[Range(1,10)] public int scale;
+</code></pre><p>Inside the OnRenderImage I set up a temporary RenderTexture, which we will blit to, and then blit from that to the destination. We set the dimensions to the scale. Create a temp texture and set the filtermode to Point. This ensures that the dithers stay crisp. Otherwise they&rsquo;re all blurry and just don&rsquo;t look good.</p>
+<p>int width = source.width / scale; int height = source.height / scale; RenderTextureFormat format = source.format; RenderTexture r = RenderTexture.GetTemporary(width, height, 0, format); r.filterMode = FilterMode.Point;</p>
+<p>I found that I add to edit the shader to make this look better too, so I set the scale of the shader based on this scale too. We&rsquo;ll assign this in a minute.</p>
+<pre tabindex="0"><code>material.SetFloat(&#34;_Scale&#34;, 1f/scale);
+</code></pre><p>Then we blit the source texture to our temporary one, then the temporary to the material and finally release it.</p>
+<pre tabindex="0"><code>Graphics.Blit(source, r);
+Graphics.Blit(r, destination, material);
+RenderTexture.ReleaseTemporary(r);
+</code></pre><p>Back in the shader script, add &ldquo;_Scale&rdquo; to the properties. And multiply the x and y by it.</p>
+<pre tabindex="0"><code>int pxIndex = input.pos.x*_Scale; 
+int pyIndex = input.pos.y*_Scale;
+</code></pre><p>Now when I move the scale slider up and down the pixels get bigger and smaller, and I can set them to be as chunky as I want</p>
+<p>This gif looks really bad, go check out the demo to see it work!</p>
+<p><img src="01.gif" alt="alt" class="portfolioImg">
+
+</p>
+
+
+
+
+  </div>
+
+
+
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

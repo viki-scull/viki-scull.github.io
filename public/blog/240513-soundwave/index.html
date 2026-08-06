@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Sound Waves | Viki Scull Portfolio</title>
+
+
+
+<link rel="stylesheet" href="/css/main.css"/>
+
+<script src="https://kit.fontawesome.com/aa4928ad39.js" crossorigin="anonymous"></script>
+
+<meta charset="UTF-8">
+
+</head>
+<body>
+  <header>
+    
+
+  <nav>
+      <a href="/">Home</a>
+      <a href="/page/aboutme/">About Me</a>
+      <a aria-current="true" class="ancestor" href="/blog/">Blog</a>
+  </nav>
+
+
+  </header>
+  <main>
+    
+
+
+<div class="fullWidth">
+
+   <h2>Sound Waves</h2> 
+
+</div>
+
+
+
+   <div class="twoThirds">
+   <h4>May 13, 2024 // 
+    
+      
+        <a href="/tags/shaders">
+          #shaders
+        </a>
+      
+  
+  </h4>
+
+
+
+  <p>It&rsquo;s been a good while since I&rsquo;ve posted anything, and I&rsquo;ve wanted to post some little effects from projects I have been working on, so this is the first one!</p>
+<p>This is a little shader to create a sound wave in Unity, I used a similar one when I was working on the Wallace and Gromit project, <a href="http://localhost:1313/projects/thebigfixup/">The Big Fix up</a>, a couple of years ago, as one of the characters talked to the player through radios, and we needed a visual representation of that!</p>
+<p><img src="01.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>Start off by adding a rectangle node, make sure it&rsquo;s thin and centred in the middle of the image.</p>
+<p><img src="02.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>Add a UV node. Put the X straight into the X of a Vector 2 node.</p>
+<p>Create some stripes by multiplying the X axis (x10) and running it through a sine wave. Then multiply it by the height (0.2) then add this to the Y axis, and put it in the Y of the vector 2.</p>
+<p>This gives us a sine wave.</p>
+<p><img src="03.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>Now grab another UV node, use the smoothstep node to fade this on each edge and multiply these together. Multiply this with the height node, and stick a saturate in there somewhere, to keep the value under one.</p>
+<p>The result of this should be plugged into where the height was previously.</p>
+<p><img src="04.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>To animate the wave you can add a time node, and multiply it by speed (0.2), then add this to the X axis right at the start, before it&rsquo;s multiplied by the density.</p>
+<p><img src="05.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>Then you can use a lerp node to add colour, and hook the result into the BaseColor and Emission.</p>
+<p><img src="06.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>And you&rsquo;re done! You can animate the values with an animation or timeline, change colours, add more effects, anything you like!</p>
+<p><img src="01.webp" alt="alt" class="portfolioImg">
+
+</p>
+
+
+
+
+  </div>
+
+
+
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

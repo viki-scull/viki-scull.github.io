@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shaders on Viki Scull Portfolio</title>
+    <link>http://localhost:1313/tags/shaders/</link>
+    <description>Recent content in Shaders on Viki Scull Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/shaders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sound Waves</title>
+      <link>http://localhost:1313/blog/240513-soundwave/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/240513-soundwave/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a good while since I&amp;rsquo;ve posted anything, and I&amp;rsquo;ve wanted to post some little effects from projects I have been working on, so this is the first one!&lt;/p&gt;&#xA;&lt;p&gt;This is a little shader to create a sound wave in Unity, I used a similar one when I was working on the Wallace and Gromit project, &lt;a href=&#34;http://localhost:1313/projects/thebigfixup/&#34;&gt;The Big Fix up&lt;/a&gt;, a couple of years ago, as one of the characters talked to the player through radios, and we needed a visual representation of that!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dithering Post Processing</title>
+      <link>http://localhost:1313/blog/210411-ditheringpost/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/210411-ditheringpost/</guid>
+      <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/dithering-postprocessing&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Dithering, specifically Ordered Dithering, is a way of displaying images, and was used back when computers only had about 16 colours to choose from, often they were completely monochromatic. Now it&amp;rsquo;s more of a stylistic choice, and a similar effect was used in indie smash hit, Return of the Obra Dinn.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to create this effect in Unity, because it seems pretty cool and I want to learn more about post processing, and writing my own post processing scripts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making Cookies</title>
+      <link>http://localhost:1313/blog/210126-cookiecutter/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/210126-cookiecutter/</guid>
+      <description>&lt;div class=&#34; portfolio&#34;&gt;&#xA;  &lt;a href=&#34;https://alittleredpanda.itch.io/cookie-cutter&#34;&gt;View on itch.io &lt;i class=&#34;aboutIcons fa-brands fa-itch-io fa-sm&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;This effect was created for a game jam revolved around making cookies. I think it was something to do with how we�re coping in lockdown. And well. I made a lot of cake.&lt;/p&gt;&#xA;&lt;p&gt;I wanted cookies that could be cut from a base pattern, and retain said pattern. I don&amp;rsquo;t know if anyone would notice, but it was cool.&lt;/p&gt;&#xA;&lt;p&gt;Anyway. I started with a rounded rectangle and offset the UVs with a noise texture, making it a bit blobby. This was so I could do multiple rounds of cookies and each be unique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Spooky Tech Art Challenge</title>
+      <link>http://localhost:1313/blog/201022-spooky-techart/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/201022-spooky-techart/</guid>
+      <description>&lt;p&gt;Initially I wasn’t very keen on this fortnight’s theme of “replication” for the Tech Art Challenge. It was a little bit too open, I had an idea of copying the “swimming through swamp water effect” from The Last of Us 2, but then, at work, we were discussing games with different effects and Perception came up.&lt;/p&gt;&#xA;&lt;p&gt;Perception is a survival horror game, made by The Deep End Games in 2017. And the main mechanic of it is that the heroine, Cassie, is blind. She can only see by echolocation, so she taps her cane and can see where a clock chimes and pipes rumble.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

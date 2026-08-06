@@ -44,6 +44,12 @@
     <loc>http://localhost:1313/projects/kits/mapgeneration/</loc>
     <lastmod>2025-03-26T20:38:22+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/shaders/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/240513-soundwave/</loc>
+    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/petaversecats/petfur/</loc>
     <lastmod>2023-01-26T20:38:22+09:00</lastmod>
   </url><url>
@@ -65,8 +71,20 @@
     <loc>http://localhost:1313/projects/fixupthecity/</loc>
     <lastmod>2021-08-26T20:38:22+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/210411-ditheringpost/</loc>
+    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/thebigfixup/</loc>
     <lastmod>2021-01-26T20:38:22+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/210126-cookiecutter/</loc>
+    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/201022-spooky-techart/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/200109-procgen-townhouses/</loc>
+    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/hiddenflorence/</loc>
     <lastmod>2019-11-26T20:38:22+09:00</lastmod>
@@ -89,5 +107,9 @@
     <loc>http://localhost:1313/page/archive/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/proc-gen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/shaders-procedual-generation/</loc>
   </url>
 </urlset>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-GB" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Making Cookies | Viki Scull Portfolio</title>
+
+
+
+<link rel="stylesheet" href="/css/main.css"/>
+
+<script src="https://kit.fontawesome.com/aa4928ad39.js" crossorigin="anonymous"></script>
+
+<meta charset="UTF-8">
+
+</head>
+<body>
+  <header>
+    
+
+  <nav>
+      <a href="/">Home</a>
+      <a href="/page/aboutme/">About Me</a>
+      <a aria-current="true" class="ancestor" href="/blog/">Blog</a>
+  </nav>
+
+
+  </header>
+  <main>
+    
+
+
+<div class="fullWidth">
+
+   <h2>Making Cookies</h2> 
+
+</div>
+
+
+
+   <div class="twoThirds">
+   <h4>Jan 26, 2021 // 
+    
+      
+        <a href="/tags/shaders">
+          #shaders
+        </a>
+      
+        <a href="/tags/procedual-generation">
+          #procedual generation
+        </a>
+      
+  
+  </h4>
+
+
+
+  <div class=" portfolio">
+  <a href="https://alittleredpanda.itch.io/cookie-cutter">View on itch.io <i class="aboutIcons fa-brands fa-itch-io fa-sm"></i></a>
+</div>
+
+<p>This effect was created for a game jam revolved around making cookies. I think it was something to do with how we’re coping in lockdown. And well. I made a lot of cake.</p>
+<p>I wanted cookies that could be cut from a base pattern, and retain said pattern. I don&rsquo;t know if anyone would notice, but it was cool.</p>
+<p>Anyway. I started with a rounded rectangle and offset the UVs with a noise texture, making it a bit blobby. This was so I could do multiple rounds of cookies and each be unique.</p>
+<p><img src="one.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>With each drop of the cutter onto the dough area, I draw onto another texture, which is added to the blobby dough mask to make a combined mask. And that&rsquo;s how I cut out my cookies!</p>
+<p>For added difficulty, I created the stripes. It&rsquo;s based on a <a href="https://andreashackel.de/blog/2017-10-03-stripes-shader-1/">this tutorial</a> and tweaked to make a lovely rainbow.</p>
+<p><img src="two.png" alt="alt" class="portfolioImg">
+
+</p>
+<p>Now the cookies.</p>
+<p>The cookies are instantiated when you click, they use the same basic texture as the dough, and the tiling is set by dividing the dough’s tiling by the cookie scale.</p>
+<p>The offset is a little hacky. It based on the scale of the cookie, the dough, and the position of the cookie in relation to the dough’s (0,0). The actual equation is in the script. It took quite a lot of tweaking and I&rsquo;m not 100% sure how it works, but it does! And that&rsquo;s all I can wish for.</p>
+<p><img src="one.gif" alt="alt" class="portfolioImg">
+
+</p>
+<p>Anyway, my new repo, <a href="https://github.com/viki-scull/ShaderSketchbook">Shader Sketchbook</a> can be found here. I&rsquo;m going to stick everything like this in one big project, it&rsquo;s just a bit easier for me to manage, and it will never be particularly huge. It&rsquo;s just for me to be able to see all the things I&rsquo;ve made and abandoned.</p>
+
+
+
+
+  </div>
+
+
+
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
